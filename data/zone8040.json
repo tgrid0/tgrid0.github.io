@@ -1,0 +1,1506 @@
+[
+    {
+        "armor": 117,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 153600,
+        "haste": 0,
+        "id": 134406,
+        "level": 865,
+        "mastery": 291,
+        "name": "Mainsail Cloak",
+        "slot": 16,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            577,
+            255,
+            63,
+            254,
+            62,
+            257,
+            265,
+            105,
+            258,
+            266,
+            267,
+            270,
+            269,
+            102,
+            262,
+            264,
+            65,
+            268,
+            259,
+            260,
+            261,
+            103,
+            104,
+            253,
+            263,
+            581,
+            250,
+            251,
+            252,
+            66,
+            70,
+            73,
+            71,
+            72
+        ],
+        "versatility": 523
+    },
+    {
+        "armor": 161,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145263,
+        "haste": 753,
+        "id": 134417,
+        "level": 865,
+        "mastery": 333,
+        "name": "Slippers of Martyrdom",
+        "slot": 8,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 205,
+        "classs": 4,
+        "crit": 600,
+        "displayid": 145267,
+        "haste": 0,
+        "id": 134428,
+        "level": 865,
+        "mastery": 849,
+        "name": "Rising Ocean Legwraps",
+        "slot": 7,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 131,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145262,
+        "haste": 357,
+        "id": 134433,
+        "level": 865,
+        "mastery": 0,
+        "name": "Cord of the Sea-Caller",
+        "slot": 6,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 730
+    },
+    {
+        "armor": 298,
+        "classs": 4,
+        "crit": 413,
+        "displayid": 144653,
+        "haste": 0,
+        "id": 134438,
+        "level": 865,
+        "mastery": 1036,
+        "name": "Tunic of the Pitiless Monstrosity",
+        "slot": 5,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 205,
+        "classs": 4,
+        "crit": 450,
+        "displayid": 144668,
+        "haste": 0,
+        "id": 134441,
+        "level": 865,
+        "mastery": 637,
+        "name": "Shellshock Footguards",
+        "slot": 8,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 168,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 150751,
+        "haste": 753,
+        "id": 134456,
+        "level": 865,
+        "mastery": 0,
+        "name": "Taut Halyard Waistband",
+        "slot": 6,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 333
+    },
+    {
+        "armor": 130,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 144658,
+        "haste": 530,
+        "id": 134459,
+        "level": 865,
+        "mastery": 285,
+        "name": "Cuffs of the Arcane Storm",
+        "slot": 9,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 259,
+        "classs": 4,
+        "crit": 450,
+        "displayid": 145457,
+        "haste": 637,
+        "id": 134465,
+        "level": 865,
+        "mastery": 0,
+        "name": "Hydra Scale Sabatons",
+        "slot": 8,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 306,
+        "classs": 4,
+        "crit": 538,
+        "displayid": 145339,
+        "haste": 0,
+        "id": 134471,
+        "level": 865,
+        "mastery": 0,
+        "name": "Helm of Endless Dunes",
+        "slot": 1,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 911
+    },
+    {
+        "armor": 283,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145340,
+        "haste": 427,
+        "id": 134478,
+        "level": 865,
+        "mastery": 660,
+        "name": "Thundercrush Pauldrons",
+        "slot": 3,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 165,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145342,
+        "haste": 494,
+        "id": 134484,
+        "level": 865,
+        "mastery": 320,
+        "name": "Crestrider Conduit Bracers",
+        "slot": 9,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 1423,
+        "id": 134492,
+        "level": 865,
+        "mastery": 948,
+        "name": "Hatecoil Commander's Amulet",
+        "slot": 2,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 1626,
+        "haste": 0,
+        "id": 134497,
+        "level": 865,
+        "mastery": 745,
+        "name": "Stormcharged Choker",
+        "slot": 2,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 439,
+        "classs": 4,
+        "crit": 730,
+        "displayid": 145041,
+        "haste": 357,
+        "id": 134505,
+        "level": 865,
+        "mastery": 0,
+        "name": "Horizon Line Warboots",
+        "slot": 8,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 399,
+        "classs": 4,
+        "crit": 357,
+        "displayid": 145043,
+        "haste": 0,
+        "id": 134508,
+        "level": 865,
+        "mastery": 730,
+        "name": "Stormwake Handguards",
+        "slot": 10,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 519,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145932,
+        "haste": 538,
+        "id": 134512,
+        "level": 865,
+        "mastery": 0,
+        "name": "Casque of the Deep",
+        "slot": 1,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 911
+    },
+    {
+        "armor": 559,
+        "classs": 4,
+        "crit": 538,
+        "displayid": 145045,
+        "haste": 911,
+        "id": 134514,
+        "level": 865,
+        "mastery": 0,
+        "name": "Keelhauler Legplates",
+        "slot": 7,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 1558,
+        "haste": 812,
+        "id": 134525,
+        "level": 865,
+        "mastery": 0,
+        "name": "Seal of the Nazjatar Empire",
+        "slot": 11,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 677,
+        "haste": 1694,
+        "id": 134532,
+        "level": 865,
+        "mastery": 0,
+        "name": "Band of Fused Coral",
+        "slot": 11,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 0,
+        "id": 134539,
+        "level": 865,
+        "mastery": 1287,
+        "name": "Braided Silver Ring",
+        "slot": 11,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "versatility": 1083
+    },
+    {
+        "armor": 175,
+        "classs": 4,
+        "crit": 404,
+        "displayid": 145269,
+        "haste": 0,
+        "id": 137360,
+        "level": 865,
+        "mastery": 683,
+        "name": "Shoulderpads of Crashing Waves",
+        "slot": 3,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 359,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145040,
+        "haste": 683,
+        "id": 137361,
+        "level": 865,
+        "mastery": 0,
+        "name": "Roaring Shellbreaker Greatbelt",
+        "slot": 6,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 404
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 0,
+        "id": 137362,
+        "level": 865,
+        "mastery": 0,
+        "name": "Parjesh's Medallion",
+        "slot": 12,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            250,
+            66,
+            73,
+            104,
+            581,
+            268
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 137363,
+        "level": 865,
+        "mastery": 0,
+        "name": "Bloodied Spearhead",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            250,
+            265,
+            73,
+            258,
+            260,
+            71,
+            103,
+            104,
+            254
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 223,
+        "classs": 4,
+        "crit": 637,
+        "displayid": 144657,
+        "haste": 450,
+        "id": 137364,
+        "level": 865,
+        "mastery": 0,
+        "name": "Crashing Oceantide Mantle",
+        "slot": 3,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 137365,
+        "level": 865,
+        "mastery": 0,
+        "name": "Condensed Saltsea Globule",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            268,
+            254,
+            269,
+            262,
+            253,
+            255,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 137366,
+        "level": 865,
+        "mastery": 0,
+        "name": "Gift of the Ocean Empress",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            66,
+            257,
+            256,
+            65,
+            70
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 0,
+        "id": 137367,
+        "level": 865,
+        "mastery": 0,
+        "name": "Stormsinger Fulmination Charge",
+        "slot": 12,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            62,
+            254,
+            102,
+            256,
+            63,
+            64,
+            262,
+            253,
+            258,
+            265,
+            266,
+            267
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 377,
+        "classs": 4,
+        "crit": 911,
+        "displayid": 145337,
+        "haste": 0,
+        "id": 137368,
+        "level": 865,
+        "mastery": 538,
+        "name": "Breastplate of Ten Lashes",
+        "slot": 5,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 0,
+        "id": 137369,
+        "level": 865,
+        "mastery": 0,
+        "name": "Giant Ornamental Pearl",
+        "slot": 12,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            70,
+            577,
+            255,
+            103,
+            71,
+            72,
+            260,
+            251,
+            259,
+            252,
+            261,
+            263,
+            269
+        ],
+        "versatility": 1036
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 137370,
+        "level": 865,
+        "mastery": 0,
+        "name": "Heart of the Sea",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            64,
+            62,
+            262,
+            270,
+            264,
+            103,
+            105,
+            251
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 137371,
+        "level": 865,
+        "mastery": 0,
+        "name": "Tumultuous Aftershock",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            269,
+            259,
+            581,
+            260,
+            71,
+            255,
+            263,
+            66,
+            73
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 102,
+        "classs": 4,
+        "crit": 494,
+        "displayid": 145268,
+        "haste": 320,
+        "id": 137372,
+        "level": 865,
+        "mastery": 0,
+        "name": "Wristbands of the Swirling Deeps",
+        "slot": 9,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 0,
+        "id": 137373,
+        "level": 865,
+        "mastery": 0,
+        "name": "Tempered Egg of Serpentrix",
+        "slot": 12,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            577,
+            255,
+            103,
+            253,
+            269,
+            261,
+            254,
+            259,
+            260,
+            263
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 137375,
+        "level": 865,
+        "mastery": 0,
+        "name": "Blazing Hydra Flame Sac",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            63,
+            266,
+            252,
+            267,
+            72,
+            263,
+            104,
+            70
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 137377,
+        "level": 865,
+        "mastery": 0,
+        "name": "Serpentrix's Guile",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            250,
+            265,
+            258,
+            266,
+            256,
+            252,
+            259,
+            261,
+            251,
+            577
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 1036,
+        "id": 137378,
+        "level": 865,
+        "mastery": 0,
+        "name": "Bottled Hurricane",
+        "slot": 12,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            105,
+            65,
+            264,
+            256,
+            257,
+            270
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 137379,
+        "level": 865,
+        "mastery": 0,
+        "name": "Tempestbinder's Crystal",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            64,
+            63,
+            102,
+            62,
+            253,
+            581
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 137380,
+        "level": 865,
+        "mastery": 0,
+        "name": "Rage of the Tides",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            64,
+            62,
+            262,
+            270,
+            264,
+            103,
+            105,
+            251
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 137381,
+        "level": 865,
+        "mastery": 0,
+        "name": "Pact of Vengeful Service",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 8040
+            }
+        ],
+        "specs": [
+            257,
+            268,
+            270,
+            65,
+            105,
+            102,
+            264
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 625,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145076,
+        "haste": 0,
+        "id": 134223,
+        "level": 865,
+        "mastery": 938,
+        "name": "Coralplate Chestguard",
+        "slot": 5,
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 459
+    },
+    {
+        "armor": 351,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 150747,
+        "haste": 0,
+        "id": 134225,
+        "level": 865,
+        "mastery": 748,
+        "name": "Coralplate Girdle",
+        "slot": 6,
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 299
+    },
+    {
+        "armor": 469,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145080,
+        "haste": 0,
+        "id": 134228,
+        "level": 865,
+        "mastery": 658,
+        "name": "Coralplate Pauldrons",
+        "slot": 3,
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 389
+    },
+    {
+        "armor": 273,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145081,
+        "haste": 0,
+        "id": 134230,
+        "level": 865,
+        "mastery": 527,
+        "name": "Coralplate Wristguard",
+        "slot": 9,
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 258
+    },
+    {
+        "armor": 198,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145317,
+        "haste": 0,
+        "id": 134237,
+        "level": 865,
+        "mastery": 703,
+        "name": "Brinewashed Leather Boots",
+        "slot": 8,
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 344
+    },
+    {
+        "armor": 252,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145321,
+        "haste": 0,
+        "id": 134238,
+        "level": 865,
+        "mastery": 878,
+        "name": "Brinewashed Leather Pants",
+        "slot": 7,
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 518
+    },
+    {
+        "armor": 180,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145319,
+        "haste": 0,
+        "id": 134239,
+        "level": 865,
+        "mastery": 613,
+        "name": "Brinewashed Leather Grips",
+        "slot": 10,
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 434
+    },
+    {
+        "armor": 234,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145320,
+        "haste": 0,
+        "id": 134240,
+        "level": 865,
+        "mastery": 938,
+        "name": "Brinewashed Leather Cowl",
+        "slot": 1,
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 459
+    },
+    {
+        "armor": 205,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 150736,
+        "haste": 0,
+        "id": 134251,
+        "level": 865,
+        "mastery": 725,
+        "name": "Sea Stalker's Cinch",
+        "slot": 6,
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 321
+    },
+    {
+        "armor": 228,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145679,
+        "haste": 0,
+        "id": 134253,
+        "level": 865,
+        "mastery": 680,
+        "name": "Sea Stalker's Gloves",
+        "slot": 10,
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 366
+    },
+    {
+        "armor": 297,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 159377,
+        "haste": 0,
+        "id": 134255,
+        "level": 865,
+        "mastery": 968,
+        "name": "Sea Stalker's Hood",
+        "slot": 1,
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 428
+    },
+    {
+        "armor": 320,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145681,
+        "haste": 0,
+        "id": 134256,
+        "level": 865,
+        "mastery": 938,
+        "name": "Sea Stalker's Leggings",
+        "slot": 7,
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 459
+    },
+    {
+        "armor": 127,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145815,
+        "haste": 0,
+        "id": 134259,
+        "level": 865,
+        "mastery": 613,
+        "name": "Seawitch Cinch",
+        "slot": 6,
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 434
+    },
+    {
+        "armor": 183,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145846,
+        "haste": 0,
+        "id": 134260,
+        "level": 865,
+        "mastery": 907,
+        "name": "Seawitch Hood",
+        "slot": 1,
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 489
+    },
+    {
+        "armor": 141,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145837,
+        "haste": 0,
+        "id": 134261,
+        "level": 865,
+        "mastery": 635,
+        "name": "Seawitch Gloves",
+        "slot": 10,
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 411
+    },
+    {
+        "armor": 226,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145845,
+        "haste": 0,
+        "id": 134263,
+        "level": 865,
+        "mastery": 998,
+        "name": "Seawitch Robes",
+        "slot": 5,
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 399
+    }
+]

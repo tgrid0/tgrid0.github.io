@@ -1,0 +1,1423 @@
+[
+    {
+        "armor": 117,
+        "classs": 4,
+        "crit": 523,
+        "displayid": 149804,
+        "haste": 0,
+        "id": 134412,
+        "level": 865,
+        "mastery": 291,
+        "name": "Cloak of Unwavering Loyalty",
+        "slot": 16,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            577,
+            255,
+            63,
+            254,
+            62,
+            257,
+            265,
+            105,
+            258,
+            266,
+            267,
+            270,
+            269,
+            102,
+            262,
+            264,
+            65,
+            268,
+            259,
+            260,
+            261,
+            103,
+            104,
+            253,
+            263,
+            581,
+            250,
+            251,
+            252,
+            66,
+            70,
+            73,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 161,
+        "classs": 4,
+        "crit": 683,
+        "displayid": 145263,
+        "haste": 404,
+        "id": 134419,
+        "level": 865,
+        "mastery": 0,
+        "name": "Slippers of Heedless Sacrifice",
+        "slot": 8,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 190,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145266,
+        "haste": 942,
+        "id": 134426,
+        "level": 865,
+        "mastery": 507,
+        "name": "Collar of Raking Claws",
+        "slot": 1,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 146,
+        "classs": 4,
+        "crit": 333,
+        "displayid": 145265,
+        "haste": 0,
+        "id": 134431,
+        "level": 865,
+        "mastery": 753,
+        "name": "Latosius's Blasting Gloves",
+        "slot": 10,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 102,
+        "classs": 4,
+        "crit": 547,
+        "displayid": 145268,
+        "haste": 0,
+        "id": 134437,
+        "level": 865,
+        "mastery": 267,
+        "name": "Harrowing Soulspun Bracers",
+        "slot": 9,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 242,
+        "classs": 4,
+        "crit": 569,
+        "displayid": 144655,
+        "haste": 880,
+        "id": 134440,
+        "level": 865,
+        "mastery": 0,
+        "name": "Soulstarve Hood",
+        "slot": 1,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 205,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 144668,
+        "haste": 706,
+        "id": 134442,
+        "level": 865,
+        "mastery": 380,
+        "name": "Tooled Rivermoor Boots",
+        "slot": 8,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 261,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 144656,
+        "haste": 973,
+        "id": 134451,
+        "level": 865,
+        "mastery": 0,
+        "name": "Legguards of Endless Horrors",
+        "slot": 7,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 476
+    },
+    {
+        "armor": 235,
+        "classs": 4,
+        "crit": 660,
+        "displayid": 145338,
+        "haste": 0,
+        "id": 134469,
+        "level": 865,
+        "mastery": 427,
+        "name": "Midnight Reaper Handwraps",
+        "slot": 10,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 259,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145457,
+        "haste": 730,
+        "id": 134477,
+        "level": 865,
+        "mastery": 357,
+        "name": "Ravencrest's Unerring Striders",
+        "slot": 8,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 330,
+        "classs": 4,
+        "crit": 413,
+        "displayid": 145341,
+        "haste": 0,
+        "id": 134483,
+        "level": 865,
+        "mastery": 1036,
+        "name": "Fel-Hammered Greaves",
+        "slot": 7,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 1626,
+        "id": 134490,
+        "level": 865,
+        "mastery": 0,
+        "name": "Ring of Contempt",
+        "slot": 11,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "versatility": 745
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 0,
+        "id": 134499,
+        "level": 865,
+        "mastery": 880,
+        "name": "Raven Filigree Pendant",
+        "slot": 2,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "versatility": 1490
+    },
+    {
+        "armor": 439,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145041,
+        "haste": 0,
+        "id": 134507,
+        "level": 865,
+        "mastery": 753,
+        "name": "Leadfoot Earthshakers",
+        "slot": 8,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 333
+    },
+    {
+        "armor": 479,
+        "classs": 4,
+        "crit": 777,
+        "displayid": 145046,
+        "haste": 311,
+        "id": 134510,
+        "level": 865,
+        "mastery": 0,
+        "name": "Pauldrons of Ancient Command",
+        "slot": 3,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 399,
+        "classs": 4,
+        "crit": 753,
+        "displayid": 145043,
+        "haste": 0,
+        "id": 134519,
+        "level": 865,
+        "mastery": 333,
+        "name": "Ravencrest Bonecrush Gauntlets",
+        "slot": 10,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 1694,
+        "haste": 677,
+        "id": 134528,
+        "level": 865,
+        "mastery": 0,
+        "name": "Band of Callous Dominance",
+        "slot": 11,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 0,
+        "id": 136714,
+        "level": 865,
+        "mastery": 0,
+        "name": "Amalgam's Seventh Spine",
+        "slot": 12,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            105,
+            65,
+            264,
+            256,
+            257,
+            270
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 1036,
+        "id": 136715,
+        "level": 865,
+        "mastery": 0,
+        "name": "Spiked Counterweight",
+        "slot": 12,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            260,
+            70,
+            269,
+            261,
+            72,
+            263,
+            103,
+            71,
+            255,
+            577,
+            251,
+            252,
+            259
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 0,
+        "id": 136716,
+        "level": 865,
+        "mastery": 1036,
+        "name": "Caged Horror",
+        "slot": 12,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            62,
+            254,
+            102,
+            256,
+            63,
+            64,
+            262,
+            253,
+            258,
+            265,
+            266,
+            267
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 136717,
+        "level": 865,
+        "mastery": 0,
+        "name": "Absolved Ravencrest Brooch",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            66,
+            257,
+            256,
+            65,
+            70
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 136718,
+        "level": 865,
+        "mastery": 0,
+        "name": "Mark of Varo'then",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            250,
+            265,
+            73,
+            258,
+            260,
+            71,
+            103,
+            104,
+            254
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 136719,
+        "level": 865,
+        "mastery": 0,
+        "name": "Curdled Soul Essence",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            250,
+            265,
+            258,
+            266,
+            256,
+            252,
+            259,
+            261,
+            251,
+            577
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 136720,
+        "level": 865,
+        "mastery": 0,
+        "name": "Snapped Emerald Pendant",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            257,
+            268,
+            270,
+            65,
+            105,
+            102,
+            264
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 136721,
+        "level": 865,
+        "mastery": 0,
+        "name": "Mo'arg Eyepatch",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            267,
+            261,
+            577
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 212,
+        "classs": 4,
+        "crit": 380,
+        "displayid": 151514,
+        "haste": 0,
+        "id": 136724,
+        "level": 865,
+        "mastery": 706,
+        "name": "Soul-Torn Fury Cinch",
+        "slot": 6,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 136769,
+        "level": 865,
+        "mastery": 0,
+        "name": "Ravencrest's Wrath",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            63,
+            266,
+            252,
+            267,
+            72,
+            263,
+            104,
+            70
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 117,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 149792,
+        "haste": 291,
+        "id": 136770,
+        "level": 865,
+        "mastery": 523,
+        "name": "Drape of the Raven Lord",
+        "slot": 16,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            577,
+            255,
+            63,
+            254,
+            62,
+            257,
+            265,
+            105,
+            258,
+            266,
+            267,
+            270,
+            269,
+            102,
+            262,
+            264,
+            65,
+            268,
+            259,
+            260,
+            261,
+            103,
+            104,
+            253,
+            263,
+            581,
+            250,
+            251,
+            252,
+            66,
+            70,
+            73,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 639,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145042,
+        "haste": 413,
+        "id": 136976,
+        "level": 865,
+        "mastery": 1036,
+        "name": "Etheldrin's Breastplate",
+        "slot": 5,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 117,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 149774,
+        "haste": 570,
+        "id": 136977,
+        "level": 865,
+        "mastery": 0,
+        "name": "Shadowfeather Shawl",
+        "slot": 16,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            577,
+            255,
+            63,
+            254,
+            62,
+            257,
+            265,
+            105,
+            258,
+            266,
+            267,
+            270,
+            269,
+            102,
+            262,
+            264,
+            65,
+            268,
+            259,
+            260,
+            261,
+            103,
+            104,
+            253,
+            263,
+            581,
+            250,
+            251,
+            252,
+            66,
+            70,
+            73,
+            71,
+            72
+        ],
+        "versatility": 244
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 0,
+        "id": 136978,
+        "level": 865,
+        "mastery": 0,
+        "name": "Ember of Nullification",
+        "slot": 12,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            250,
+            66,
+            73,
+            104,
+            581,
+            268
+        ],
+        "versatility": 880
+    },
+    {
+        "armor": 130,
+        "classs": 4,
+        "crit": 582,
+        "displayid": 144658,
+        "haste": 0,
+        "id": 136979,
+        "level": 865,
+        "mastery": 233,
+        "name": "Shorn Batbrood Cuffs",
+        "slot": 9,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 137270,
+        "level": 865,
+        "mastery": 0,
+        "name": "Howling Echoes",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            268,
+            254,
+            269,
+            262,
+            253,
+            255,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 137272,
+        "level": 865,
+        "mastery": 0,
+        "name": "Cruelty of Dantalionax",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            64,
+            62,
+            262,
+            270,
+            264,
+            103,
+            105,
+            251
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 559,
+        "classs": 4,
+        "crit": 600,
+        "displayid": 145045,
+        "haste": 0,
+        "id": 139240,
+        "level": 865,
+        "mastery": 849,
+        "name": "Rook Footman's Legplates",
+        "slot": 7,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 439,
+        "classs": 4,
+        "crit": 357,
+        "displayid": 145041,
+        "haste": 730,
+        "id": 139241,
+        "level": 865,
+        "mastery": 0,
+        "name": "Rook Footman's Warboots",
+        "slot": 8,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 186,
+        "classs": 4,
+        "crit": 404,
+        "displayid": 144654,
+        "haste": 0,
+        "id": 139242,
+        "level": 865,
+        "mastery": 683,
+        "name": "Raven's Veil Gloves",
+        "slot": 10,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 168,
+        "classs": 4,
+        "crit": 683,
+        "displayid": 150751,
+        "haste": 404,
+        "id": 139243,
+        "level": 865,
+        "mastery": 0,
+        "name": "Raven's Veil Belt",
+        "slot": 6,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 306,
+        "classs": 4,
+        "crit": 849,
+        "displayid": 145339,
+        "haste": 600,
+        "id": 139244,
+        "level": 865,
+        "mastery": 0,
+        "name": "Shadow Archer's Helm",
+        "slot": 1,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 283,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145340,
+        "haste": 0,
+        "id": 139245,
+        "level": 865,
+        "mastery": 706,
+        "name": "Shadow Archer's Spaulders",
+        "slot": 3,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 380
+    },
+    {
+        "armor": 234,
+        "classs": 4,
+        "crit": 538,
+        "displayid": 145270,
+        "haste": 0,
+        "id": 139246,
+        "level": 865,
+        "mastery": 911,
+        "name": "Ravencourt Formal Robes",
+        "slot": 5,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 175,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145269,
+        "haste": 0,
+        "id": 139247,
+        "level": 865,
+        "mastery": 450,
+        "name": "Ravencourt Formal Mantle",
+        "slot": 3,
+        "sourcemore": [
+            {
+                "z": 7805
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 637
+    },
+    {
+        "armor": 508,
+        "classs": 4,
+        "crit": 998,
+        "displayid": 145078,
+        "haste": 0,
+        "id": 134358,
+        "level": 865,
+        "mastery": 0,
+        "name": "Portalguard Helm",
+        "slot": 1,
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 399
+    },
+    {
+        "armor": 273,
+        "classs": 4,
+        "crit": 460,
+        "displayid": 145081,
+        "haste": 0,
+        "id": 134362,
+        "level": 865,
+        "mastery": 0,
+        "name": "Portalguard Wristguard",
+        "slot": 9,
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 325
+    },
+    {
+        "armor": 252,
+        "classs": 4,
+        "crit": 848,
+        "displayid": 145321,
+        "haste": 0,
+        "id": 134370,
+        "level": 865,
+        "mastery": 0,
+        "name": "Felbat Leather Leggings",
+        "slot": 7,
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 548
+    },
+    {
+        "armor": 288,
+        "classs": 4,
+        "crit": 948,
+        "displayid": 145318,
+        "haste": 0,
+        "id": 134373,
+        "level": 865,
+        "mastery": 0,
+        "name": "Felbat Leather Vest",
+        "slot": 5,
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 448
+    },
+    {
+        "armor": 160,
+        "classs": 4,
+        "crit": 460,
+        "displayid": 145683,
+        "haste": 0,
+        "id": 134384,
+        "level": 865,
+        "mastery": 0,
+        "name": "Mardum Chain Wristclamp",
+        "slot": 9,
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 325
+    },
+    {
+        "armor": 365,
+        "classs": 4,
+        "crit": 848,
+        "displayid": 145678,
+        "haste": 0,
+        "id": 134390,
+        "level": 865,
+        "mastery": 0,
+        "name": "Mardum Chain Vest",
+        "slot": 5,
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 548
+    },
+    {
+        "armor": 127,
+        "classs": 4,
+        "crit": 748,
+        "displayid": 145815,
+        "haste": 0,
+        "id": 134391,
+        "level": 865,
+        "mastery": 0,
+        "name": "Netherwhisper Cinch",
+        "slot": 6,
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 299
+    },
+    {
+        "armor": 197,
+        "classs": 4,
+        "crit": 938,
+        "displayid": 145839,
+        "haste": 0,
+        "id": 134394,
+        "level": 865,
+        "mastery": 0,
+        "name": "Netherwhisper Leggings",
+        "slot": 7,
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 459
+    }
+]

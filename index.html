@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>WoW Mythic+ items wishlist</title>
+  <meta name="description" content="This service allows you to create lists of items you want to loot">
+
+  <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
+
+  <script type="text/javascript" src="//wow.zamimg.com/widgets/power.js"></script>
+  <script>var wowhead_tooltips = { "colorlinks": true, "iconizelinks": true, "renamelinks": true }</script>
+
+  <link rel="stylesheet" href="styles/common.css">
+  <script type="text/javascript" src="scripts/app.js"></script>
+
+</head>
+
+<body>
+
+<header>
+  <h1>Wishist Configurator</h1>
+  <nav class="hnav">
+  <ul>
+    <li><button class="default-button" onclick="loadItemPage()">Items list</button></li>
+    <li><button class="default-button" onclick="loadInstPage()">Mythics+ list</button></li>
+    <li><button class="default-button" onclick="loadInExpPage()">Import/Export</button></li>
+  </ul> 
+  </nav>
+</header>
+
+<div id="page-content">
+
+</div>
+<footer>
+  <script>document.write(new Date().getFullYear())</script>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,149 @@
+html
+{
+    font-size: 1em;
+    color: #000;
+    font-family: Arial;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after
+{
+  box-sizing: inherit;
+}
+
+body
+{
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+header
+{
+    background-color: #efefef;
+}
+
+footer
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.hnav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.hnav li
+{
+    float: left;
+}
+.hnav li a
+{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.hnav li a:hover
+{
+    background-color: #3675e1;
+    color: white;
+}
+.hnav .active
+{
+    background-color: #154aa5;
+    color: white;
+}
+
+.fpanel
+{
+    border: 2px groove threedface;
+    border-top: none;
+    padding: 0.5em;
+    margin: 1em 2px;
+}
+.fpanel > h1
+{
+    font: 1em normal;
+    margin: -1em -0.5em 0;
+}
+.fpanel > h1 > span
+{
+    float: left;
+}
+.fpanel > h1:before
+{
+    border-top: 2px groove threedface;
+    content: ' ';
+    float: left;
+    margin: 0.5em 2px 0 -1px;
+    width: 0.75em;
+}
+.fpanel > h1:after
+{
+    border-top: 2px groove threedface;
+    content: ' ';
+    display: block;
+    height: 1.5em;
+    left: 2px;
+    margin: 0 1px 0 0;
+    overflow: hidden;
+    position: relative;
+    top: 0.5em;
+}
+.fpanel > div
+{
+    display:inline-block;
+}
+.fpanel > a
+{
+    text-decoration: none;
+    background-color: #cccccc;
+}
+.fpanel > a:hover
+{
+    background-color: #3675e1;
+    color: white;
+}
+
+.default-table table, th, td {
+    border: 1px solid black;
+}
+
+.default-button:hover {
+    background-color: #3675e1;
+}
+
+.default-button {
+    background-color: #154aa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.wlist-item {
+    margin-left: 10px;
+}

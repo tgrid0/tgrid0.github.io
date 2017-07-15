@@ -1,0 +1,860 @@
+[
+    {
+        "armor": 146,
+        "classs": 4,
+        "crit": 706,
+        "displayid": 145265,
+        "haste": 380,
+        "id": 133609,
+        "level": 865,
+        "mastery": 0,
+        "name": "Silken Bloodscent Gloves",
+        "slot": 10,
+        "sourcemore": [
+            {
+                "z": 7672
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 131,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145262,
+        "haste": 0,
+        "id": 133613,
+        "level": 865,
+        "mastery": 753,
+        "name": "Solsten's Arcing Runecord",
+        "slot": 6,
+        "sourcemore": [
+            {
+                "z": 7672
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 333
+    },
+    {
+        "armor": 298,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 144653,
+        "haste": 849,
+        "id": 133615,
+        "level": 865,
+        "mastery": 600,
+        "name": "Hide of Fenryr",
+        "slot": 5,
+        "sourcemore": [
+            {
+                "z": 7672
+            }
+        ],
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 186,
+        "classs": 4,
+        "crit": 637,
+        "displayid": 144654,
+        "haste": 0,
+        "id": 133617,
+        "level": 865,
+        "mastery": 450,
+        "name": "Cruel Vice Grips",
+        "slot": 10,
+        "sourcemore": [
+            {
+                "z": 7672
+            }
+        ],
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 223,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 144657,
+        "haste": 706,
+        "id": 133620,
+        "level": 865,
+        "mastery": 0,
+        "name": "Amice of the Enlightened",
+        "slot": 3,
+        "sourcemore": [
+            {
+                "z": 7672
+            }
+        ],
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 380
+    },
+    {
+        "armor": 377,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145337,
+        "haste": 445,
+        "id": 133622,
+        "level": 865,
+        "mastery": 1004,
+        "name": "Thunderfused Val'kyr Hauberk",
+        "slot": 5,
+        "sourcemore": [
+            {
+                "z": 7672
+            }
+        ],
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 259,
+        "classs": 4,
+        "crit": 311,
+        "displayid": 145457,
+        "haste": 0,
+        "id": 133623,
+        "level": 865,
+        "mastery": 777,
+        "name": "Felstep Footguards",
+        "slot": 8,
+        "sourcemore": [
+            {
+                "z": 7672
+            }
+        ],
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 165,
+        "classs": 4,
+        "crit": 267,
+        "displayid": 145342,
+        "haste": 547,
+        "id": 133626,
+        "level": 865,
+        "mastery": 0,
+        "name": "Runebands of the Worthy",
+        "slot": 9,
+        "sourcemore": [
+            {
+                "z": 7672
+            }
+        ],
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 559,
+        "classs": 4,
+        "crit": 1004,
+        "displayid": 145045,
+        "haste": 0,
+        "id": 133630,
+        "level": 865,
+        "mastery": 445,
+        "name": "Greaves of the God-King",
+        "slot": 7,
+        "sourcemore": [
+            {
+                "z": 7672
+            }
+        ],
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 677,
+        "id": 133633,
+        "level": 865,
+        "mastery": 1694,
+        "name": "Wolfstride Pendant",
+        "slot": 2,
+        "sourcemore": [
+            {
+                "z": 7672
+            }
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 1016,
+        "haste": 0,
+        "id": 133638,
+        "level": 865,
+        "mastery": 1355,
+        "name": "Woe-Bearer's Band",
+        "slot": 11,
+        "sourcemore": [
+            {
+                "z": 7672
+            }
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 117,
+        "classs": 4,
+        "crit": 244,
+        "displayid": 149791,
+        "haste": 570,
+        "id": 133639,
+        "level": 865,
+        "mastery": 0,
+        "name": "Goldscar Pelt",
+        "slot": 16,
+        "sourcemore": [
+            {
+                "z": 7672
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            577,
+            255,
+            63,
+            254,
+            62,
+            257,
+            265,
+            105,
+            258,
+            266,
+            267,
+            270,
+            269,
+            102,
+            262,
+            264,
+            65,
+            268,
+            259,
+            260,
+            261,
+            103,
+            104,
+            253,
+            263,
+            581,
+            250,
+            251,
+            252,
+            66,
+            70,
+            73,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 1036,
+        "haste": 0,
+        "id": 133641,
+        "level": 865,
+        "mastery": 0,
+        "name": "Eye of Skovald",
+        "slot": 12,
+        "sourcemore": [
+            {
+                "z": 7672
+            }
+        ],
+        "specs": [
+            62,
+            254,
+            102,
+            256,
+            63,
+            64,
+            262,
+            253,
+            258,
+            265,
+            266,
+            267
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 0,
+        "id": 133646,
+        "level": 865,
+        "mastery": 1036,
+        "name": "Mote of Sanctification",
+        "slot": 12,
+        "sourcemore": [
+            {
+                "z": 7672
+            }
+        ],
+        "specs": [
+            105,
+            65,
+            264,
+            256,
+            257,
+            270
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 1423,
+        "haste": 0,
+        "id": 133679,
+        "level": 865,
+        "mastery": 948,
+        "name": "Val'kyr Ascension Signet",
+        "slot": 11,
+        "sourcemore": [
+            {
+                "z": 7672
+            }
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 133687,
+        "level": 865,
+        "mastery": 0,
+        "name": "Fenryr's Bloodstained Fang",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 7672
+            }
+        ],
+        "specs": [
+            250,
+            265,
+            73,
+            258,
+            260,
+            71,
+            103,
+            104,
+            254
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 133764,
+        "level": 865,
+        "mastery": 0,
+        "name": "Ragnarok Ember",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 7672
+            }
+        ],
+        "specs": [
+            267,
+            261,
+            577
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 136771,
+        "level": 865,
+        "mastery": 0,
+        "name": "Eyir's Blessing",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 7672
+            }
+        ],
+        "specs": [
+            66,
+            257,
+            256,
+            65,
+            70
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 439,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145041,
+        "haste": 706,
+        "id": 136772,
+        "level": 865,
+        "mastery": 380,
+        "name": "Valkyra Protector Greatboots",
+        "slot": 8,
+        "sourcemore": [
+            {
+                "z": 7672
+            }
+        ],
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 359,
+        "classs": 4,
+        "crit": 730,
+        "displayid": 145040,
+        "haste": 357,
+        "id": 136773,
+        "level": 865,
+        "mastery": 0,
+        "name": "Greatbelt of Alpha Dominance",
+        "slot": 6,
+        "sourcemore": [
+            {
+                "z": 7672
+            }
+        ],
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 175,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145269,
+        "haste": 333,
+        "id": 136775,
+        "level": 865,
+        "mastery": 753,
+        "name": "Infernal Mantle of Conquest",
+        "slot": 3,
+        "sourcemore": [
+            {
+                "z": 7672
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 136778,
+        "level": 865,
+        "mastery": 0,
+        "name": "Skovald's Resolve",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 7672
+            }
+        ],
+        "specs": [
+            269,
+            259,
+            581,
+            260,
+            71,
+            255,
+            263,
+            66,
+            73
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 136974,
+        "level": 865,
+        "mastery": 0,
+        "name": "Empowerment of Thunder",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 7672
+            }
+        ],
+        "specs": [
+            268,
+            254,
+            269,
+            262,
+            253,
+            255,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 1036,
+        "haste": 0,
+        "id": 136975,
+        "level": 865,
+        "mastery": 0,
+        "name": "Hunger of the Pack",
+        "slot": 12,
+        "sourcemore": [
+            {
+                "z": 7672
+            }
+        ],
+        "specs": [
+            70,
+            577,
+            255,
+            103,
+            71,
+            72,
+            260,
+            251,
+            259,
+            252,
+            261,
+            263,
+            269
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 508,
+        "classs": 4,
+        "crit": 968,
+        "displayid": 145078,
+        "haste": 0,
+        "id": 134182,
+        "level": 865,
+        "mastery": 428,
+        "name": "Skoldiir Helm",
+        "slot": 1,
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 273,
+        "classs": 4,
+        "crit": 477,
+        "displayid": 145081,
+        "haste": 0,
+        "id": 134186,
+        "level": 865,
+        "mastery": 309,
+        "name": "Skoldiir Bracers",
+        "slot": 9,
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 198,
+        "classs": 4,
+        "crit": 748,
+        "displayid": 145317,
+        "haste": 0,
+        "id": 134193,
+        "level": 865,
+        "mastery": 299,
+        "name": "Biornskin Moccasins",
+        "slot": 8,
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 234,
+        "classs": 4,
+        "crit": 818,
+        "displayid": 145320,
+        "haste": 0,
+        "id": 134196,
+        "level": 865,
+        "mastery": 579,
+        "name": "Biornskin Hood",
+        "slot": 1,
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 228,
+        "classs": 4,
+        "crit": 725,
+        "displayid": 145679,
+        "haste": 0,
+        "id": 134209,
+        "level": 865,
+        "mastery": 321,
+        "name": "Tideskorn Gauntlets",
+        "slot": 10,
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 320,
+        "classs": 4,
+        "crit": 968,
+        "displayid": 145681,
+        "haste": 0,
+        "id": 134212,
+        "level": 865,
+        "mastery": 428,
+        "name": "Tideskorn Leggings",
+        "slot": 7,
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 226,
+        "classs": 4,
+        "crit": 818,
+        "displayid": 145845,
+        "haste": 0,
+        "id": 134219,
+        "level": 865,
+        "mastery": 579,
+        "name": "Bonespeaker Robes",
+        "slot": 5,
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 99,
+        "classs": 4,
+        "crit": 533,
+        "displayid": 145842,
+        "haste": 0,
+        "id": 134222,
+        "level": 865,
+        "mastery": 252,
+        "name": "Bonespeaker Bracers",
+        "slot": 9,
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 0
+    }
+]

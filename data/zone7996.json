@@ -1,0 +1,2697 @@
+[
+    {
+        "armor": 117,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 153587,
+        "haste": 0,
+        "id": 134404,
+        "level": 865,
+        "mastery": 494,
+        "name": "Stole of Malefic Repose",
+        "slot": 16,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            577,
+            255,
+            63,
+            254,
+            62,
+            257,
+            265,
+            105,
+            258,
+            266,
+            267,
+            270,
+            269,
+            102,
+            262,
+            264,
+            65,
+            268,
+            259,
+            260,
+            261,
+            103,
+            104,
+            253,
+            263,
+            581,
+            250,
+            251,
+            252,
+            66,
+            70,
+            73,
+            71,
+            72
+        ],
+        "versatility": 320
+    },
+    {
+        "armor": 117,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 149801,
+        "haste": 494,
+        "id": 134407,
+        "level": 865,
+        "mastery": 320,
+        "name": "Rugged Marauder Cape",
+        "slot": 16,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            577,
+            255,
+            63,
+            254,
+            62,
+            257,
+            265,
+            105,
+            258,
+            266,
+            267,
+            270,
+            269,
+            102,
+            262,
+            264,
+            65,
+            268,
+            259,
+            260,
+            261,
+            103,
+            104,
+            253,
+            263,
+            581,
+            250,
+            251,
+            252,
+            66,
+            70,
+            73,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 117,
+        "classs": 4,
+        "crit": 523,
+        "displayid": 149763,
+        "haste": 0,
+        "id": 134411,
+        "level": 865,
+        "mastery": 291,
+        "name": "Iceblood Shroud",
+        "slot": 16,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            577,
+            255,
+            63,
+            254,
+            62,
+            257,
+            265,
+            105,
+            258,
+            266,
+            267,
+            270,
+            269,
+            102,
+            262,
+            264,
+            65,
+            268,
+            259,
+            260,
+            261,
+            103,
+            104,
+            253,
+            263,
+            581,
+            250,
+            251,
+            252,
+            66,
+            70,
+            73,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 234,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145270,
+        "haste": 445,
+        "id": 134414,
+        "level": 865,
+        "mastery": 1004,
+        "name": "Fetid Gutcover Apron",
+        "slot": 5,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 146,
+        "classs": 4,
+        "crit": 660,
+        "displayid": 145265,
+        "haste": 0,
+        "id": 134418,
+        "level": 865,
+        "mastery": 0,
+        "name": "Scarab-Caller Grips",
+        "slot": 10,
+        "sourcemore": [
+            {
+                "bd": 1,
+                "n": "Anub'esset",
+                "t": 1,
+                "ti": 102246,
+                "z": 7996
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 427
+    },
+    {
+        "armor": 146,
+        "classs": 4,
+        "crit": 311,
+        "displayid": 145265,
+        "haste": 777,
+        "id": 134422,
+        "level": 865,
+        "mastery": 0,
+        "name": "Satin Throatclutchers",
+        "slot": 10,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 190,
+        "classs": 4,
+        "crit": 911,
+        "displayid": 145266,
+        "haste": 0,
+        "id": 134425,
+        "level": 865,
+        "mastery": 538,
+        "name": "Hood of Ancient Evil",
+        "slot": 1,
+        "sourcemore": [
+            {
+                "bd": 1,
+                "n": "Mindflayer Kaahrj",
+                "t": 1,
+                "ti": 101950,
+                "z": 7996
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 175,
+        "classs": 4,
+        "crit": 706,
+        "displayid": 145269,
+        "haste": 0,
+        "id": 134430,
+        "level": 865,
+        "mastery": 0,
+        "name": "Magnificent Aeroglide Shoulderpads",
+        "slot": 3,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 380
+    },
+    {
+        "armor": 131,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145262,
+        "haste": 660,
+        "id": 134434,
+        "level": 865,
+        "mastery": 427,
+        "name": "Cinch of Freezing Fog",
+        "slot": 6,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 102,
+        "classs": 4,
+        "crit": 250,
+        "displayid": 145268,
+        "haste": 564,
+        "id": 134436,
+        "level": 865,
+        "mastery": 0,
+        "name": "Armbands of Slaughter",
+        "slot": 9,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 298,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 144653,
+        "haste": 538,
+        "id": 134439,
+        "level": 865,
+        "mastery": 911,
+        "name": "Tunic of the Underworld",
+        "slot": 5,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 186,
+        "classs": 4,
+        "crit": 683,
+        "displayid": 144654,
+        "haste": 0,
+        "id": 134445,
+        "level": 865,
+        "mastery": 0,
+        "name": "Frostcarver Grips",
+        "slot": 10,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 404
+    },
+    {
+        "armor": 242,
+        "classs": 4,
+        "crit": 880,
+        "displayid": 144655,
+        "haste": 569,
+        "id": 134446,
+        "level": 865,
+        "mastery": 0,
+        "name": "Vigilant Bondbreaker Headdress",
+        "slot": 1,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 261,
+        "classs": 4,
+        "crit": 1004,
+        "displayid": 144656,
+        "haste": 0,
+        "id": 134450,
+        "level": 865,
+        "mastery": 445,
+        "name": "D-Lux Slipstream Pants",
+        "slot": 7,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 223,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 144657,
+        "haste": 404,
+        "id": 134454,
+        "level": 865,
+        "mastery": 683,
+        "name": "Spaulders of Unstable Experiments",
+        "slot": 3,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 168,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 150751,
+        "haste": 706,
+        "id": 134457,
+        "level": 865,
+        "mastery": 380,
+        "name": "Sash of the Twilight Princess",
+        "slot": 6,
+        "sourcemore": [
+            {
+                "bd": 1,
+                "n": "Blood-Princess Thal'ena",
+                "t": 1,
+                "ti": 102431,
+                "z": 7996
+            }
+        ],
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 259,
+        "classs": 4,
+        "crit": 753,
+        "displayid": 145457,
+        "haste": 0,
+        "id": 134466,
+        "level": 865,
+        "mastery": 333,
+        "name": "Begrudging Trudgers",
+        "slot": 8,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 235,
+        "classs": 4,
+        "crit": 753,
+        "displayid": 145338,
+        "haste": 333,
+        "id": 134468,
+        "level": 865,
+        "mastery": 0,
+        "name": "Gloves of Flesh-Shaping",
+        "slot": 10,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 330,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145341,
+        "haste": 1004,
+        "id": 134476,
+        "level": 865,
+        "mastery": 445,
+        "name": "Wyrmwing Kilt",
+        "slot": 7,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 283,
+        "classs": 4,
+        "crit": 450,
+        "displayid": 145340,
+        "haste": 0,
+        "id": 134479,
+        "level": 865,
+        "mastery": 0,
+        "name": "Mantle of the Abyss",
+        "slot": 3,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 637
+    },
+    {
+        "armor": 212,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 151514,
+        "haste": 753,
+        "id": 134482,
+        "level": 865,
+        "mastery": 0,
+        "name": "Cinch of Frozen Fear",
+        "slot": 6,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 333
+    },
+    {
+        "armor": 165,
+        "classs": 4,
+        "crit": 337,
+        "displayid": 145342,
+        "haste": 0,
+        "id": 134485,
+        "level": 865,
+        "mastery": 477,
+        "name": "Cuffs of the Nerubian Empire",
+        "slot": 9,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 880,
+        "haste": 1490,
+        "id": 134489,
+        "level": 865,
+        "mastery": 0,
+        "name": "Seal of Malicious Deceit",
+        "slot": 11,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 0,
+        "id": 134493,
+        "level": 865,
+        "mastery": 880,
+        "name": "Band of Crystalline Bone",
+        "slot": 11,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "versatility": 1490
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 1694,
+        "id": 134498,
+        "level": 865,
+        "mastery": 677,
+        "name": "Chain of a Hundred Maws",
+        "slot": 2,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 279,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145047,
+        "haste": 337,
+        "id": 134502,
+        "level": 865,
+        "mastery": 477,
+        "name": "Exo-Mesh Carpalform Armplates Mk. VII",
+        "slot": 9,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 559,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145045,
+        "haste": 569,
+        "id": 134506,
+        "level": 865,
+        "mastery": 880,
+        "name": "Legplates of the Swarm",
+        "slot": 7,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 559,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145045,
+        "haste": 0,
+        "id": 134515,
+        "level": 865,
+        "mastery": 569,
+        "name": "Greaves of Ruinous Dominion",
+        "slot": 7,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 880
+    },
+    {
+        "armor": 559,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145045,
+        "haste": 942,
+        "id": 134516,
+        "level": 865,
+        "mastery": 0,
+        "name": "Tassets of Ravenous Euphoria",
+        "slot": 7,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 507
+    },
+    {
+        "armor": 479,
+        "classs": 4,
+        "crit": 730,
+        "displayid": 145046,
+        "haste": 0,
+        "id": 134521,
+        "level": 865,
+        "mastery": 357,
+        "name": "Dread-Stricken Shoulderguards",
+        "slot": 3,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 439,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145041,
+        "haste": 404,
+        "id": 134523,
+        "level": 865,
+        "mastery": 683,
+        "name": "Etched Dragonbone Warboots",
+        "slot": 8,
+        "sourcemore": [
+            {
+                "bd": 1,
+                "n": "Shivermaw",
+                "t": 1,
+                "ti": 101951,
+                "z": 7996
+            }
+        ],
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 0,
+        "id": 134527,
+        "level": 865,
+        "mastery": 1626,
+        "name": "Loop of Eightfold Eyes",
+        "slot": 11,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "versatility": 745
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 1287,
+        "id": 134534,
+        "level": 865,
+        "mastery": 1083,
+        "name": "Dingy Wedding Band",
+        "slot": 11,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 1016,
+        "haste": 1355,
+        "id": 134541,
+        "level": 865,
+        "mastery": 0,
+        "name": "Tightweb Choker",
+        "slot": 2,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 205,
+        "classs": 4,
+        "crit": 1004,
+        "displayid": 145267,
+        "haste": 0,
+        "id": 137424,
+        "level": 865,
+        "mastery": 445,
+        "name": "Burrow-Dweller Leggings",
+        "slot": 7,
+        "sourcemore": [
+            {
+                "bd": 1,
+                "n": "Anub'esset",
+                "t": 1,
+                "ti": 102246,
+                "z": 7996
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 130,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 144658,
+        "haste": 0,
+        "id": 137425,
+        "level": 865,
+        "mastery": 512,
+        "name": "Cryptwalker Bracers",
+        "slot": 9,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 302
+    },
+    {
+        "armor": 242,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 144655,
+        "haste": 1036,
+        "id": 137427,
+        "level": 865,
+        "mastery": 413,
+        "name": "Corpse Feast Headwrap",
+        "slot": 1,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 377,
+        "classs": 4,
+        "crit": 569,
+        "displayid": 145337,
+        "haste": 880,
+        "id": 137428,
+        "level": 865,
+        "mastery": 0,
+        "name": "Chestguard of Ravaged Chitin",
+        "slot": 5,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 399,
+        "classs": 4,
+        "crit": 311,
+        "displayid": 145043,
+        "haste": 777,
+        "id": 137429,
+        "level": 865,
+        "mastery": 0,
+        "name": "Serrated Mandible Grips",
+        "slot": 10,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 1036,
+        "id": 137430,
+        "level": 865,
+        "mastery": 0,
+        "name": "Impenetrable Nerubian Husk",
+        "slot": 12,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            250,
+            66,
+            73,
+            104,
+            581,
+            268
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 279,
+        "classs": 4,
+        "crit": 564,
+        "displayid": 145047,
+        "haste": 0,
+        "id": 137431,
+        "level": 865,
+        "mastery": 250,
+        "name": "Despair-Bound Armplates",
+        "slot": 9,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 812,
+        "haste": 0,
+        "id": 137432,
+        "level": 865,
+        "mastery": 1558,
+        "name": "Ring of Mind-Shielding",
+        "slot": 11,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 1036,
+        "id": 137433,
+        "level": 865,
+        "mastery": 0,
+        "name": "Obelisk of the Void",
+        "slot": 12,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            62,
+            254,
+            102,
+            256,
+            63,
+            64,
+            258,
+            105,
+            65,
+            253,
+            257,
+            262,
+            264,
+            265,
+            266,
+            267,
+            270
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 102,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145268,
+        "haste": 477,
+        "id": 137434,
+        "level": 865,
+        "mastery": 337,
+        "name": "Split-Vein Bracers",
+        "slot": 9,
+        "sourcemore": [
+            {
+                "bd": 1,
+                "n": "Festerface",
+                "t": 1,
+                "ti": 101995,
+                "z": 7996
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 168,
+        "classs": 4,
+        "crit": 450,
+        "displayid": 150751,
+        "haste": 637,
+        "id": 137435,
+        "level": 865,
+        "mastery": 0,
+        "name": "Blightbile Waistband",
+        "slot": 6,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 359,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145040,
+        "haste": 637,
+        "id": 137436,
+        "level": 865,
+        "mastery": 450,
+        "name": "Pustulous Girdle",
+        "slot": 6,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 639,
+        "classs": 4,
+        "crit": 911,
+        "displayid": 145042,
+        "haste": 538,
+        "id": 137437,
+        "level": 865,
+        "mastery": 0,
+        "name": "Slimeflow Breastplate",
+        "slot": 5,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 1423,
+        "haste": 948,
+        "id": 137438,
+        "level": 865,
+        "mastery": 0,
+        "name": "Band of Decaying Rubies",
+        "slot": 11,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 0,
+        "id": 137439,
+        "level": 865,
+        "mastery": 1036,
+        "name": "Tiny Oozeling in a Jar",
+        "slot": 12,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            70,
+            577,
+            255,
+            103,
+            71,
+            72,
+            260,
+            251,
+            259,
+            252,
+            261,
+            263,
+            269
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 0,
+        "id": 137440,
+        "level": 865,
+        "mastery": 0,
+        "name": "Shivermaw's Jawbone",
+        "slot": 12,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            250,
+            66,
+            73,
+            104,
+            581,
+            268
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 190,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 159395,
+        "haste": 569,
+        "id": 137441,
+        "level": 865,
+        "mastery": 880,
+        "name": "Millificent's Turboview Specs",
+        "slot": 1,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 130,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 144658,
+        "haste": 285,
+        "id": 137442,
+        "level": 865,
+        "mastery": 0,
+        "name": "Compact Trifold Wristbands",
+        "slot": 9,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 530
+    },
+    {
+        "armor": 306,
+        "classs": 4,
+        "crit": 569,
+        "displayid": 145339,
+        "haste": 0,
+        "id": 137443,
+        "level": 865,
+        "mastery": 880,
+        "name": "Mithril Melon Vault",
+        "slot": 1,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 259,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145457,
+        "haste": 753,
+        "id": 137444,
+        "level": 865,
+        "mastery": 0,
+        "name": "Plasma-Drilled Steel Toes",
+        "slot": 8,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 333
+    },
+    {
+        "armor": 519,
+        "classs": 4,
+        "crit": 973,
+        "displayid": 145932,
+        "haste": 476,
+        "id": 137445,
+        "level": 865,
+        "mastery": 0,
+        "name": "Insurmountable Skullfortress",
+        "slot": 1,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 1036,
+        "haste": 0,
+        "id": 137446,
+        "level": 865,
+        "mastery": 0,
+        "name": "Elementium Bomb Squirrel Generator",
+        "slot": 12,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            62,
+            254,
+            102,
+            256,
+            63,
+            64,
+            262,
+            253,
+            258,
+            265,
+            266,
+            267
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 175,
+        "classs": 4,
+        "crit": 637,
+        "displayid": 145269,
+        "haste": 0,
+        "id": 137447,
+        "level": 865,
+        "mastery": 450,
+        "name": "Lair Matron's Spaulders",
+        "slot": 3,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 205,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 144668,
+        "haste": 427,
+        "id": 137448,
+        "level": 865,
+        "mastery": 660,
+        "name": "Toxin-Stitched Footwraps",
+        "slot": 8,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 298,
+        "classs": 4,
+        "crit": 476,
+        "displayid": 144653,
+        "haste": 973,
+        "id": 137449,
+        "level": 865,
+        "mastery": 0,
+        "name": "Wicked Broodmother's Chestguard",
+        "slot": 5,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 330,
+        "classs": 4,
+        "crit": 942,
+        "displayid": 145341,
+        "haste": 507,
+        "id": 137450,
+        "level": 865,
+        "mastery": 0,
+        "name": "Leggings of Acidic Venom",
+        "slot": 7,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 519,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145932,
+        "haste": 0,
+        "id": 137451,
+        "level": 865,
+        "mastery": 1004,
+        "name": "Vision of the Spider Queen",
+        "slot": 1,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 445
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 0,
+        "id": 137452,
+        "level": 865,
+        "mastery": 0,
+        "name": "Thrumming Gossamer",
+        "slot": 12,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            105,
+            65,
+            264,
+            256,
+            257,
+            270
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 205,
+        "classs": 4,
+        "crit": 880,
+        "displayid": 145267,
+        "haste": 569,
+        "id": 137453,
+        "level": 865,
+        "mastery": 0,
+        "name": "Legwraps of Rampant Turmoil",
+        "slot": 7,
+        "sourcemore": [
+            {
+                "bd": 1,
+                "n": "Fel Lord Betrug",
+                "t": 1,
+                "ti": 102446,
+                "z": 7996
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 161,
+        "classs": 4,
+        "crit": 380,
+        "displayid": 145263,
+        "haste": 0,
+        "id": 137454,
+        "level": 865,
+        "mastery": 706,
+        "name": "Footguards of Stayed Execution",
+        "slot": 8,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 223,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 144657,
+        "haste": 660,
+        "id": 137455,
+        "level": 865,
+        "mastery": 427,
+        "name": "Spaulders of Tense Sinew",
+        "slot": 3,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 212,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 151514,
+        "haste": 380,
+        "id": 137456,
+        "level": 865,
+        "mastery": 706,
+        "name": "Belt of Mighty Links",
+        "slot": 6,
+        "sourcemore": [
+            {
+                "bd": 1,
+                "n": "Fel Lord Betrug",
+                "t": 1,
+                "ti": 102446,
+                "z": 7996
+            }
+        ],
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 639,
+        "classs": 4,
+        "crit": 600,
+        "displayid": 145042,
+        "haste": 0,
+        "id": 137457,
+        "level": 865,
+        "mastery": 849,
+        "name": "Chestplate of the Obstinate Conqueror",
+        "slot": 5,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 0,
+        "id": 137458,
+        "level": 865,
+        "mastery": 1287,
+        "name": "Chaos-Forged Necklace",
+        "slot": 2,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "versatility": 1083
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 1036,
+        "id": 137459,
+        "level": 865,
+        "mastery": 0,
+        "name": "Chaos Talisman",
+        "slot": 12,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            70,
+            577,
+            255,
+            103,
+            71,
+            72,
+            260,
+            251,
+            259,
+            252,
+            261,
+            263,
+            269
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 377,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145337,
+        "haste": 973,
+        "id": 137460,
+        "level": 865,
+        "mastery": 476,
+        "name": "Constricting Chain Harness",
+        "slot": 5,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 1694,
+        "haste": 677,
+        "id": 137461,
+        "level": 865,
+        "mastery": 0,
+        "name": "Breathless Choker",
+        "slot": 2,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 0,
+        "id": 137462,
+        "level": 865,
+        "mastery": 0,
+        "name": "Jewel of Insatiable Desire",
+        "slot": 12,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            105,
+            65,
+            264,
+            256,
+            257,
+            270
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 137463,
+        "level": 865,
+        "mastery": 0,
+        "name": "Fealty of Nerub",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            250,
+            265,
+            258,
+            266,
+            256,
+            252,
+            259,
+            261,
+            251,
+            577
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 137464,
+        "level": 865,
+        "mastery": 0,
+        "name": "Tendril of Darkness",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            250,
+            265,
+            258,
+            266,
+            256,
+            252,
+            259,
+            261,
+            251,
+            577
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 137465,
+        "level": 865,
+        "mastery": 0,
+        "name": "Festerface's Rotted Gut",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            250,
+            265,
+            73,
+            258,
+            260,
+            71,
+            103,
+            104,
+            254
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 137466,
+        "level": 865,
+        "mastery": 0,
+        "name": "Frostwyrm Heart",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            64,
+            62,
+            262,
+            270,
+            264,
+            103,
+            105,
+            251
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 137468,
+        "level": 865,
+        "mastery": 0,
+        "name": "Bonecrushing Hail",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            268,
+            254,
+            269,
+            262,
+            253,
+            255,
+            72
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 137469,
+        "level": 865,
+        "mastery": 0,
+        "name": "Thorium-Plated Egg",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            269,
+            259,
+            581,
+            260,
+            71,
+            255,
+            263,
+            66,
+            73
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 137470,
+        "level": 865,
+        "mastery": 0,
+        "name": "Rocket Chicken Rocket Fuel",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            63,
+            266,
+            252,
+            267,
+            72,
+            263,
+            104,
+            70
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 137471,
+        "level": 865,
+        "mastery": 0,
+        "name": "Drop of True Blood",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "bd": 1,
+                "n": "Blood-Princess Thal'ena",
+                "t": 1,
+                "ti": 102431,
+                "z": 7996
+            }
+        ],
+        "specs": [
+            250,
+            265,
+            73,
+            258,
+            260,
+            71,
+            103,
+            104,
+            254
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 137472,
+        "level": 865,
+        "mastery": 0,
+        "name": "Betrug's Vigor",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            269,
+            259,
+            581,
+            260,
+            71,
+            255,
+            263,
+            66,
+            73
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 137473,
+        "level": 865,
+        "mastery": 0,
+        "name": "Phase Spider Mandible",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            64,
+            63,
+            102,
+            62,
+            253,
+            581
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 137474,
+        "level": 865,
+        "mastery": 0,
+        "name": "Loyalty to the Matriarch",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            66,
+            257,
+            256,
+            65,
+            70
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 137476,
+        "level": 865,
+        "mastery": 0,
+        "name": "Brand of Tyranny",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "bd": 1,
+                "n": "Fel Lord Betrug",
+                "t": 1,
+                "ti": 102446,
+                "z": 7996
+            }
+        ],
+        "specs": [
+            267,
+            261,
+            577
+        ],
+        "versatility": 0
+    },
+    {
+        "classs": 3,
+        "crit": 0,
+        "haste": 0,
+        "id": 137478,
+        "level": 865,
+        "mastery": 0,
+        "name": "Reflection of Sorrow",
+        "slot": 0,
+        "sourcemore": [
+            {
+                "bd": 1,
+                "n": "Blood-Princess Thal'ena",
+                "t": 1,
+                "ti": 102431,
+                "z": 7996
+            }
+        ],
+        "specs": [
+            257,
+            268,
+            270,
+            65,
+            105,
+            102,
+            264
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 306,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145339,
+        "haste": 911,
+        "id": 137479,
+        "level": 865,
+        "mastery": 538,
+        "name": "Cowl of Promising News",
+        "slot": 1,
+        "sourcemore": [
+            {
+                "z": 7996
+            }
+        ],
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 160,
+        "classs": 4,
+        "crit": 0,
+        "displayid": 145683,
+        "haste": 275,
+        "id": 134296,
+        "level": 865,
+        "mastery": 510,
+        "name": "Ley Dragoon's Wristbraces",
+        "slot": 9,
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 351,
+        "classs": 4,
+        "crit": 613,
+        "displayid": 150747,
+        "haste": 0,
+        "id": 134357,
+        "level": 865,
+        "mastery": 0,
+        "name": "Portalguard Waistplate",
+        "slot": 6,
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 434
+    },
+    {
+        "armor": 469,
+        "classs": 4,
+        "crit": 710,
+        "displayid": 145080,
+        "haste": 0,
+        "id": 134360,
+        "level": 865,
+        "mastery": 0,
+        "name": "Portalguard Shoulders",
+        "slot": 3,
+        "specs": [
+            73,
+            65,
+            66,
+            250,
+            251,
+            252,
+            70,
+            71,
+            72
+        ],
+        "versatility": 336
+    },
+    {
+        "armor": 126,
+        "classs": 4,
+        "crit": 561,
+        "displayid": 145323,
+        "haste": 0,
+        "id": 134368,
+        "level": 865,
+        "mastery": 0,
+        "name": "Felbat Leather Wristwraps",
+        "slot": 9,
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 224
+    },
+    {
+        "armor": 180,
+        "classs": 4,
+        "crit": 680,
+        "displayid": 145319,
+        "haste": 0,
+        "id": 134371,
+        "level": 865,
+        "mastery": 0,
+        "name": "Felbat Leather Gloves",
+        "slot": 10,
+        "specs": [
+            270,
+            105,
+            261,
+            102,
+            269,
+            260,
+            268,
+            259,
+            103,
+            104,
+            577,
+            581
+        ],
+        "versatility": 366
+    },
+    {
+        "armor": 0,
+        "classs": 4,
+        "crit": 0,
+        "haste": 0,
+        "id": 134379,
+        "level": 865,
+        "mastery": 0,
+        "name": "Infernal Bloodstone Shard",
+        "slot": 12,
+        "specs": [
+            260,
+            268,
+            254,
+            261,
+            269,
+            259,
+            103,
+            104,
+            253,
+            577,
+            255,
+            263,
+            581
+        ],
+        "versatility": 0
+    },
+    {
+        "armor": 274,
+        "classs": 4,
+        "crit": 710,
+        "displayid": 145682,
+        "haste": 0,
+        "id": 134389,
+        "level": 865,
+        "mastery": 0,
+        "name": "Mardum Chain Pauldrons",
+        "slot": 3,
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 336
+    },
+    {
+        "armor": 365,
+        "classs": 4,
+        "crit": 848,
+        "displayid": 145678,
+        "haste": 0,
+        "id": 134390,
+        "level": 865,
+        "mastery": 0,
+        "name": "Mardum Chain Vest",
+        "slot": 5,
+        "specs": [
+            253,
+            262,
+            255,
+            264,
+            254,
+            263
+        ],
+        "versatility": 548
+    },
+    {
+        "armor": 141,
+        "classs": 4,
+        "crit": 613,
+        "displayid": 145837,
+        "haste": 0,
+        "id": 134393,
+        "level": 865,
+        "mastery": 0,
+        "name": "Netherwhisper Gloves",
+        "slot": 10,
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 434
+    },
+    {
+        "armor": 226,
+        "classs": 4,
+        "crit": 818,
+        "displayid": 145845,
+        "haste": 0,
+        "id": 134395,
+        "level": 865,
+        "mastery": 0,
+        "name": "Netherwhisper Robes",
+        "slot": 5,
+        "specs": [
+            64,
+            256,
+            63,
+            62,
+            257,
+            265,
+            258,
+            266,
+            267
+        ],
+        "versatility": 579
+    }
+]
