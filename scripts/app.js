@@ -10,14 +10,18 @@ var zones =
     "The Arcway",
     "Eye of Azshara",
     "Court of Stars",
-    "Return to Karazhan"
+    "Return to Karazhan",
+    "All"
 ];
 
-//var zone_itemschosen = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+var stats = ["Crit", "Haste", "Mastery", "Versatility"];
+var slots = ["Head", "Neck", "Shoulder", "Back", "Chest", "Wrist", "Hands", "Waist", "Legs", "Feet", "Finger", "Trinket"];
+
 var settings = 
 {
     "items_per_page": 10,
-    "filters": []
+    "statsfilters": [],
+    "slotsfilters": []
 }
 
 var columns = ["name", "slot", "crit", "haste", "mastery", "versatility", "zone", "inlist"];
@@ -66,22 +70,26 @@ $(document).ready(function() {
     });
 });
 
+function generateTableButton(columnId, name) {
+    return "<th><button class=\"default-button\" style=\"width: 100%\" onclick=\"sortByColumn(" + columnId + ")\">" + name + "</button></th>";
+}
+
 function presentItemTable() {
     var items_to_show = $("#items_per_page").val();
     var items_table = "<table class=\"default-table\">";
-    items_table += "<tr><th><button class=\"default-button\" style=\"width: 100%\" onclick=\"sortByColumn(0)\">Item</button></th>";
-    items_table += "<th><button class=\"default-button\" style=\"width: 100%\" onclick=\"sortByColumn(1)\">Slot</button></th>";
-    items_table += "<th><button class=\"default-button\" style=\"width: 100%\" onclick=\"sortByColumn(2)\">Crit</button></th>";
-    items_table += "<th><button class=\"default-button\" style=\"width: 100%\" onclick=\"sortByColumn(3)\">Haste</button></th>";
-    items_table += "<th><button class=\"default-button\" style=\"width: 100%\" onclick=\"sortByColumn(4)\">Mastery</button></th>";
-    items_table += "<th><button class=\"default-button\" style=\"width: 100%\" onclick=\"sortByColumn(5)\">Versatility</button></th>";
-    items_table += "<th><button class=\"default-button\" style=\"width: 100%\" onclick=\"sortByColumn(6)\">Instance</button></th>";
-    items_table += "<th><button class=\"default-button\" style=\"width: 100%\" onclick=\"sortByColumn(7)\">In list</button></th>";
+    items_table += "<tr>" + generateTableButton(0,"Item");
+    items_table += generateTableButton(1, "Slot");
+    items_table += generateTableButton(2, "Crit");
+    items_table += generateTableButton(3, "Haste");
+    items_table += generateTableButton(4, "Mastery");
+    items_table += generateTableButton(5, "Versatility");
+    items_table += generateTableButton(6, "Instance");
+    items_table += generateTableButton(7, "In list");
     items_table += "</tr>";
-    var show_crit = $('#filter0').prop("checked");
-    var show_haste = $('#filter1').prop("checked");
-    var show_mastery = $('#filter2').prop("checked");
-    var show_versatility = $('#filter3').prop("checked");
+    var show_crit = $('#statsfilter0').prop("checked");
+    var show_haste = $('#statsfilter1').prop("checked");
+    var show_mastery = $('#statsfilter2').prop("checked");
+    var show_versatility = $('#statsfilter3').prop("checked");
     var shown_items = 0;
     var total_items = items.length;
     for (var i = 0; i < total_items; i++) {
@@ -119,27 +127,32 @@ function setInList(index) {
 
 function saveSettings() {
     if (currentpage == 0) {
-        for (var i = 0; i < 27; i++) {
-            settings["filters"][i] = $("#filter" + i).prop("checked");
+        for (var i = 0, length = stats.length; i < length; i++) {
+            settings["statsfilters"][i] = $("#statsfilter" + i).prop("checked");
+        }
+        for (var i = 0, length = slots.length; i < length; i++) {
+            settings["slotsfilters"][i] = $("#slotsfilter" + i).prop("checked");
         }
         settings["items_per_page"] = $("#items_per_page").val();
     }
 }
 
 function loadSettings() {
-    for (var i = 0; i < 27; i++) {
-        $("#filter" + i).prop("checked", settings["filters"][i]);
+    for (var i = 0, length = stats.length; i < length; i++) {
+        $("#statsfilter" + i).prop("checked", settings["statsfilters"][i]);
+    }
+    for (var i = 0, length = slots.length; i < length; i++) {
+        $("#slotsfilter" + i).prop("checked", settings["slotsfilters"][i]);
     }
     $("#items_per_page").val("" + settings["items_per_page"]).change();
 }
 
 function loadItemPage() {
     if (currentpage != 0) {
-        $("#page-content").load("/contents/itemlist.html", function() {
-            loadSettings();
-            currentpage = 0;
-            presentItemTable();
-        });     
+        $("#page-content").html(constructItemPage());
+        loadSettings();
+        currentpage = 0;
+        presentItemTable();     
     }
 }
 
@@ -224,4 +237,67 @@ function updateList(ow_opt) {
     }
     // also update export string
     $("#expstrng").val(exportstrng);
+}
+
+function generateFilter(id, groupName, filterName) {
+    response_string = "";
+    if (id != -1) {
+        response_string = "<div><input id=\"" + groupName.toLowerCase() + "filter" + id + "\" type=\"checkbox\" checked>" + filterName + "</div>";
+    } else {
+        response_string = "<button id=\"" + groupName.toLowerCase() + "filter-all\" onclick=\"filterCheckAll('" + groupName.toLowerCase() + "', " + false + ")\">Uncheck all</button>";
+    }
+    return response_string;
+}
+
+function filterCheckAll(name, check) {
+    var length = 0;
+    switch(name) {
+        case "stats":
+        length = stats.length;
+        break;
+        case "slots":
+        length = slots.length;
+        break;
+        default:
+        break;
+    }
+
+    for (var i = 0; i < length; i++) {
+        $("#" + name + "filter" + i).prop("checked", check);
+    }
+    $("#" + name + "filter-all").html(check ? "Uncheck all" : "Check all");
+    $("#" + name + "filter-all").attr("onclick", "filterCheckAll('" + name + "', " + !check + ")");
+}
+
+function constructItemPage() {
+    var response_string = "";
+    response_string += "<div class=\"fpanel\"><h1><span>Filters</span></h1>";
+    response_string += "<div class=\"fpanel\"><h1><span>Search</span></h1><input type=\"text\" value=\"Name or id:<itemid>\"></div>";
+    
+    response_string += "<div class=\"fpanel\"><h1><span>Stats</span></h1>";
+    for (var i = 0, length = stats.length; i < length; i++) {
+        response_string += generateFilter(i, "stats", stats[i]);
+    }
+    response_string += generateFilter(-1, "stats", "All") + "</div>";
+
+    response_string += "<div class=\"fpanel\"><h1><span>Slot</span></h1>";
+    for (var i = 0, length = slots.length; i < length; i++) {
+        response_string += generateFilter(i, "slots", slots[i]);
+    }
+    response_string += generateFilter(-1, "slots", "All") + "</div>";
+
+    // zones in constuction
+
+    
+
+    response_string += "<div class=\"fpanel\"><h1><span>Show first</span></h1><select id=\"items_per_page\">";
+    response_string += "<option value=\"10\" selected>10</option><option value=\"25\">25</option>";
+    response_string += "<option value=\"50\">50</option><option value=\"100\">100</option></select></div>";   
+    response_string += "<button class=\"default-button\" onclick=\"presentItemTable()\">Refresh List</button></div>";
+
+    response_string += "</div>";
+
+    response_string += "<div id=\"items_table\"></div>";
+
+    return response_string;
 }
