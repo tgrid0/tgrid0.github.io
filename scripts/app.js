@@ -196,12 +196,12 @@ function copyExportString() {
 }
 
 function concstructInExpPage() {
-    var response_string = "";
+    var response_string = "<h2>Export wishlist</h2>";
     response_string += "<textarea id=\"expstrng\" readonly>";
     response_string += generateExportString();
     response_string += "</textarea><br>";
     response_string += "<button class=\"default-button\" onclick=\"copyExportString()\">To clipboard</button><br>";
-    response_string += "<textarea id=\"impstrng\">";
+    response_string += "<h2>Import wishlist</h2><textarea id=\"impstrng\">";
     response_string += "</textarea><br>";
     response_string += "<button class=\"default-button\" onclick=\"updateList(false)\">Add to list</button>";
     response_string += "<button class=\"default-button\" onclick=\"updateList(true)\">Overwrite list</button>";
