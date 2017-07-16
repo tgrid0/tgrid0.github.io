@@ -26,34 +26,63 @@ var settings =
 
 var columns = ["name", "slot", "crit", "haste", "mastery", "versatility", "zone", "inlist"];
 var orders = [false, false, false, false, false, false, false, false];
+var locales = {"en": 0, "ru": 1, "de": 2, "fr": 3};
+var locdata = [];
 
+var currentlocale = "en";
 var currentpage = -1; // 0 - items, 1 - instances
+var currentilvl = 0;
 
 var items = [];
-//var processedRequests = zoneids.length;
+var processedRequests = zoneids.length;
+
+function setLocale(loc) {
+    currentlocale = loc;
+    items.forEach(function(item, i, items) {
+        item["name"] = locdata[locales[currentlocale]][item["id"]];
+    });
+    Object.keys(locales).forEach(function(key) {
+        $("#loc" + key).removeClass("default-button-active");
+    });
+    $("#loc" + currentlocale).addClass("default-button-active");
+    if (currentpage == 0) {
+        presentItemTable();
+    }
+}
 
 function handleRequest() {
     if (!--processedRequests) {
-        sortByColumn('name', 0);
-        presentItemTable(1);
+        $.ajax({
+            type: 'GET',
+            url: "/locale/locale.json",
+            dataType: 'json',
+            success: function(data) {
+                locdata = locdata.concat(data);
+                setLocale("en");
+                loadItemPage();
+            }
+        }); 
     }
 }
 
 $(document).ready(function() {
-    /*for (var i = 0; i < zoneids.length; i++) {
+    for (var i = 0; i < zoneids.length; i++) {
         $.ajax({
             type: 'GET',
-            url: "/data/zone" + zoneids[i] + ".json",
+            url: "/data/data" + zoneids[i] + ".json",
             dataType: 'json',
             success: function(data) {
                 var defer = $.Deferred();
+                data.forEach(function(item, i, data) {
+                  item["inlist"] = false;
+                });
                 items = items.concat(data);
                 handleRequest();
                 defer.resolve();
             }
         });
-    }*/
-    $.ajax({
+    }
+    /*$.ajax({
         type: 'GET',
         url: "/data/allitems.json",
         dataType: 'json',
@@ -67,7 +96,7 @@ $(document).ready(function() {
         error: function() {
             console.log("Error loading items data!");
         }
-    });
+    });*/
 });
 
 function generateTableButton(columnId, name) {
@@ -77,7 +106,8 @@ function generateTableButton(columnId, name) {
 function presentItemTable() {
     var items_to_show = $("#items_per_page").val();
     var items_table = "<table class=\"default-table\">";
-    items_table += "<tr>" + generateTableButton(0,"Item");
+    items_table += "<tr>";
+    items_table += generateTableButton(0, "Item");
     items_table += generateTableButton(1, "Slot");
     items_table += generateTableButton(2, "Crit");
     items_table += generateTableButton(3, "Haste");
@@ -98,7 +128,7 @@ function presentItemTable() {
             (show_mastery && items[i]["mastery"] > 0) ||
             (show_versatility && items[i]["versatility"])) {
             items_table += "<tr><td>" + items[i]["name"] + "</td><td>" + items[i]["slot"] + "</td>";
-            items_table += "<td>" + items[i]["crit"] + "</td><td>" + items[i]["haste"] + "</td><td>" + items[i]["mastery"] + "</td><td>" + items[i]["versatility"] + "</td>";
+            items_table += "<td>" + items[i]["crit"][currentilvl] + "</td><td>" + items[i]["haste"][currentilvl] + "</td><td>" + items[i]["mastery"][currentilvl] + "</td><td>" + items[i]["versatility"][currentilvl] + "</td>";
             items_table += "<td>" + zones[items[i]["zone"]] + "</td>";
             items_table += "<td><button id=\"t_list_check" + i + "\" onclick=\"setInList(" + i + ")\" class=\"default-button\" style=\"width: 100%;" + (items[i]["inlist"] ? "background-color:green;\">Remove" : "\">Add") + "</button></td></tr>";
             shown_items++;

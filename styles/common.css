@@ -137,12 +137,16 @@ h1
     background-color: #154aa5;
     border: none;
     color: white;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
 }
+
+.default-button-active {
+    background-color: #327eff;
+}
+
 
 .wlist-item {
     margin-left: 10px;
