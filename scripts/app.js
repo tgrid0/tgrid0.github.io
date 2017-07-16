@@ -123,10 +123,10 @@ function presentItemTable() {
     var shown_items = 0;
     var total_items = items.length;
     for (var i = 0; i < total_items; i++) {
-        if ((show_crit && items[i]["crit"] > 0) ||
-            (show_haste && items[i]["haste"] > 0) ||
-            (show_mastery && items[i]["mastery"] > 0) ||
-            (show_versatility && items[i]["versatility"])) {
+        if ((show_crit && items[i]["crit"][0] > 0) ||
+            (show_haste && items[i]["haste"][0] > 0) ||
+            (show_mastery && items[i]["mastery"][0] > 0) ||
+            (show_versatility && items[i]["versatility"][0])) {
             items_table += "<tr><td>" + items[i]["name"] + "</td><td>" + items[i]["slot"] + "</td>";
             items_table += "<td>" + items[i]["crit"][currentilvl] + "</td><td>" + items[i]["haste"][currentilvl] + "</td><td>" + items[i]["mastery"][currentilvl] + "</td><td>" + items[i]["versatility"][currentilvl] + "</td>";
             items_table += "<td>" + zones[items[i]["zone"]] + "</td>";
