@@ -31,7 +31,6 @@ var locdata = [];
 
 var currentlocale = "en";
 var currentpage = -1; // 0 - items, 1 - instances
-var currentilvl = 0;
 
 var items = [];
 var processedRequests = zoneids.length;
@@ -74,7 +73,7 @@ $(document).ready(function() {
             success: function(data) {
                 var defer = $.Deferred();
                 data.forEach(function(item, i, data) {
-                  item["inlist"] = false;
+                  item["inlist"] = -1;
                 });
                 items = items.concat(data);
                 handleRequest();
@@ -105,6 +104,7 @@ function generateTableButton(columnId, name) {
 
 function presentItemTable() {
     var items_to_show = $("#items_per_page").val();
+    var chosen_ilvl = $("#chosen_ilvl").val();
     var items_table = "<table class=\"default-table\">";
     items_table += "<tr>";
     items_table += generateTableButton(0, "Item");
@@ -128,9 +128,9 @@ function presentItemTable() {
             (show_mastery && items[i]["mastery"][0] > 0) ||
             (show_versatility && items[i]["versatility"][0])) {
             items_table += "<tr><td>" + items[i]["name"] + "</td><td>" + items[i]["slot"] + "</td>";
-            items_table += "<td>" + items[i]["crit"][currentilvl] + "</td><td>" + items[i]["haste"][currentilvl] + "</td><td>" + items[i]["mastery"][currentilvl] + "</td><td>" + items[i]["versatility"][currentilvl] + "</td>";
+            items_table += "<td>" + items[i]["crit"][chosen_ilvl] + "</td><td>" + items[i]["haste"][chosen_ilvl] + "</td><td>" + items[i]["mastery"][chosen_ilvl] + "</td><td>" + items[i]["versatility"][chosen_ilvl] + "</td>";
             items_table += "<td>" + zones[items[i]["zone"]] + "</td>";
-            items_table += "<td><button id=\"t_list_check" + i + "\" onclick=\"setInList(" + i + ")\" class=\"default-button\" style=\"width: 100%;" + (items[i]["inlist"] ? "background-color:green;\">Remove" : "\">Add") + "</button></td></tr>";
+            items_table += "<td><button id=\"t_list_check" + i + "\" onclick=\"setInList(" + i + ")\" class=\"default-button\" style=\"width: 100%;" + (items[i]["inlist"] > -1 ? "background-color:green;\">Remove" : "\">Add") + "</button></td></tr>";
             shown_items++;
         }
         if (shown_items >= items_to_show)
@@ -141,16 +141,35 @@ function presentItemTable() {
 }
 
 function sortByColumn(co) {
-    items.sort(function(a, b) {
-        return orders[co] ? a[columns[co]] < b[columns[co]]: a[columns[co]] > b[columns[co]];
-    });
+    var chosen_ilvl = $("#chosen_ilvl").val();
+    if (orders[co])
+    {
+        if (co > 1 && co < 6)
+            items.sort(function(a, b) {
+                return a[columns[co]][chosen_ilvl] < b[columns[co]][chosen_ilvl];
+            });
+        else
+            items.sort(function(a, b) {
+                return a[columns[co]] < b[columns[co]];
+            });
+    } else {
+        if (co > 1 && co < 6)
+            items.sort(function(a, b) {
+                return a[columns[co]][chosen_ilvl] > b[columns[co]][chosen_ilvl];
+            });
+        else
+            items.sort(function(a, b) {
+                return a[columns[co]] > b[columns[co]];
+            });
+    }
     orders[co] = !orders[co];
     presentItemTable();
 }
 
 function setInList(index) {
-    items[index]["inlist"] = !items[index]["inlist"];
-    var b = items[index]["inlist"];
+    var chosen_ilvl = $("#chosen_ilvl").val();
+    items[index]["inlist"] = items[index]["inlist"] > -1 ? -1 : chosen_ilvl;
+    var b = items[index]["inlist"] > -1;
     $("#t_list_check" + index).css("background-color", b ? "green" : "#154aa5");
     $("#t_list_check" + index).html(b ? "Remove" : "Add");
 }
@@ -202,20 +221,54 @@ function loadInExpPage() {
     }
 }
 
+//  ilvl-to-level
+/*  
+    0 - 865
+    2 - 870
+    4 - 875
+    6 - 880
+    8 - 885
+    10 - 890
+    12 - 895
+    13 - 900
+    14 - 905
+    15 - 910
+*/
+
+
+var levels = [0, 2, 4, 6, 8, 10, 12, 13, 14, 15];
+
+function ilvlBonusId(ind) {
+    return 1517 + (ind * 5);
+}
+
 function constructWishList() {
     var response_string = "";
     var item_strings = [];
+    var zoneshow = [];
     for (var i = 0, length = zoneids.length; i < length; i++) {
-        item_strings[i] = "";
+        item_strings[i] = [];
+        for (var j = 0; j < 10; j++)
+            item_strings[i][j] = "";
+    }
+    for (var i = 0, length = zoneids.length; i < length; i++) {
+        zoneshow[i] = false;
     }
     for (var i = 0, length = items.length; i < length; i++) {
-        if (items[i]["inlist"]) {
-            item_strings[items[i]["zone"]] += "<div class=\"wlist-item\"><a href=\"http://www.wowhead.com/item=" + items[i]["id"] +"&bonus=1727:1517\">" + items[i]["slot"] + "</a></div>";
+        if (items[i]["inlist"] > -1) {
+            item_strings[items[i]["zone"]][items[i]["inlist"]] += "<div class=\"wlist-item\"><a href=\"http://www.wowhead.com/item=" + items[i]["id"] +
+                                                                  "&bonus=1727:" + ilvlBonusId(items[i]["inlist"]) + "\">" + items[i]["slot"] + "</a></div>";
+            zoneshow[items[i]["zone"]] = true;
         }
     }
     for (var i = 0, length = zoneids.length; i < length; i++) {
-        if (item_strings[i] != "") {
-            response_string += "<div class=\"fpanel\"> <h1><span>" + zones[i] +  "</span></h1>" + item_strings[i] + "</div>";
+        if (zoneshow[i]) {
+            response_string += "<div class=\"fpanel\"> <h1><span>" + zones[i] +  "</span></h1>";
+            for (var j = 0; j < 10; j++) {
+                if (item_strings[i][j] != "" && item_strings[i][j] != undefined)
+                    response_string += "<div class=\"fpanel\"> <h1><span>" + levels[j] +  "+</span></h1>" + item_strings[i][j] + "</div>";
+            }
+            response_string += "</div>";
         }
     }
     if (0 === response_string.length) {
@@ -318,11 +371,15 @@ function constructItemPage() {
 
     // zones in constuction
 
-    
+    response_string += "<div class=\"fpanel\"><h1><span>Item level</span></h1><select id=\"chosen_ilvl\">";
+    for (var i = 0; i < 10; i++) {
+        response_string += "<option value=\"" + i +"\" selected>" + (865 + i * 5) +"</option>";
+    }
+    response_string += "</select></div>";
 
     response_string += "<div class=\"fpanel\"><h1><span>Show first</span></h1><select id=\"items_per_page\">";
     response_string += "<option value=\"10\" selected>10</option><option value=\"25\">25</option>";
-    response_string += "<option value=\"50\">50</option><option value=\"100\">100</option></select></div>";   
+    response_string += "<option value=\"50\">50</option><option value=\"100\">100</option></select></div>";
     response_string += "<button class=\"default-button\" onclick=\"presentItemTable()\">Refresh List</button></div>";
 
     response_string += "</div>";
