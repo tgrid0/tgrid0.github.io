@@ -369,7 +369,7 @@
             1432
         ],
         "slot": "neck",
-        "type": "jewel",
+        "type": "misc",
         "versatility": [
             1844,
             1900,
@@ -534,7 +534,7 @@
             0
         ],
         "slot": "trinket",
-        "type": "jewel",
+        "type": "misc",
         "versatility": [
             0,
             0,
@@ -809,7 +809,7 @@
             385
         ],
         "slot": "back",
-        "type": "jewel",
+        "type": "misc",
         "versatility": [
             0,
             0,

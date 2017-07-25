@@ -16,16 +16,18 @@ var zones =
 
 var stats = ["Crit", "Haste", "Mastery", "Versatility"];
 var slots = ["Head", "Neck", "Shoulder", "Back", "Chest", "Wrist", "Hands", "Waist", "Legs", "Feet", "Finger", "Trinket"];
+var types = ["Cloth", "Leather", "Mail", "Plate", "Misc"];
 
-var settings = 
+var settings =
 {
     "items_per_page": 10,
     "statsfilters": [],
-    "slotsfilters": []
+    "slotsfilters": [],
+    "typesfilters": []
 }
 
-var columns = ["name", "slot", "crit", "haste", "mastery", "versatility", "zone", "inlist"];
-var orders = [false, false, false, false, false, false, false, false];
+var columns = ["name", "slot", "type", "crit", "haste", "mastery", "versatility", "zone", "inlist"];
+var orders = [false, false, false, false, false, false, false, false, false];
 var locales = {"en": 0, "ru": 1, "de": 2, "fr": 3};
 var locdata = [];
 
@@ -60,7 +62,7 @@ function handleRequest() {
                 setLocale("en");
                 loadItemPage();
             }
-        }); 
+        });
     }
 }
 
@@ -81,25 +83,43 @@ $(document).ready(function() {
             }
         });
     }
-    /*$.ajax({
-        type: 'GET',
-        url: "/data/allitems.json",
-        dataType: 'json',
-        success: function(data) {
-            items = items.concat(data);
-            items.forEach(function(item, i, items) {
-              item["inlist"] = false;
-            });
-            loadItemPage();
-        },
-        error: function() {
-            console.log("Error loading items data!");
-        }
-    });*/
 });
 
 function generateTableButton(columnId, name) {
     return "<th><button class=\"default-button\" style=\"width: 100%\" onclick=\"sortByColumn(" + columnId + ")\">" + name + "</button></th>";
+}
+
+function passStatFilters(item) {
+    var show_crit = $('#statsfilter0').prop("checked");
+    var show_haste = $('#statsfilter1').prop("checked");
+    var show_mastery = $('#statsfilter2').prop("checked");
+    var show_versatility = $('#statsfilter3').prop("checked");
+    return (show_crit && item["crit"][0] > 0) ||
+            (show_haste && item["haste"][0] > 0) ||
+            (show_mastery && item["mastery"][0] > 0) ||
+            (show_versatility && item["versatility"][0]);
+}
+
+function passSlotFilters(item) {
+    var i = 0;
+    var length = slots.length;
+    while (i < length) {
+        if (slots[i].toLowerCase() == item["slot"])
+            break;
+        i++;
+    }
+    return $('#slotsfilter' + i).prop("checked");
+}
+
+function passTypeFilters(item) {
+    var i = 0;
+    var length = types.length;
+    while (i < length) {
+        if (types[i].toLowerCase() == item["type"])
+            break;
+        i++;
+    }
+    return $('#typesfilter' + i).prop("checked");
 }
 
 function presentItemTable() {
@@ -109,25 +129,20 @@ function presentItemTable() {
     items_table += "<tr>";
     items_table += generateTableButton(0, "Item");
     items_table += generateTableButton(1, "Slot");
-    items_table += generateTableButton(2, "Crit");
-    items_table += generateTableButton(3, "Haste");
-    items_table += generateTableButton(4, "Mastery");
-    items_table += generateTableButton(5, "Versatility");
-    items_table += generateTableButton(6, "Instance");
-    items_table += generateTableButton(7, "In list");
+    items_table += generateTableButton(2, "Type");
+    items_table += generateTableButton(3, "Crit");
+    items_table += generateTableButton(4, "Haste");
+    items_table += generateTableButton(5, "Mastery");
+    items_table += generateTableButton(6, "Versatility");
+    items_table += generateTableButton(7, "Instance");
+    items_table += generateTableButton(8, "In list");
     items_table += "</tr>";
-    var show_crit = $('#statsfilter0').prop("checked");
-    var show_haste = $('#statsfilter1').prop("checked");
-    var show_mastery = $('#statsfilter2').prop("checked");
-    var show_versatility = $('#statsfilter3').prop("checked");
+
     var shown_items = 0;
     var total_items = items.length;
     for (var i = 0; i < total_items; i++) {
-        if ((show_crit && items[i]["crit"][0] > 0) ||
-            (show_haste && items[i]["haste"][0] > 0) ||
-            (show_mastery && items[i]["mastery"][0] > 0) ||
-            (show_versatility && items[i]["versatility"][0])) {
-            items_table += "<tr><td>" + items[i]["name"] + "</td><td>" + items[i]["slot"] + "</td>";
+        if (passStatFilters(items[i]) && passSlotFilters(items[i]) && passTypeFilters(items[i])) {
+            items_table += "<tr><td>" + items[i]["name"] + "</td><td>" + items[i]["slot"] + "</td><td>" + items[i]["type"] + "</td>";
             items_table += "<td>" + items[i]["crit"][chosen_ilvl] + "</td><td>" + items[i]["haste"][chosen_ilvl] + "</td><td>" + items[i]["mastery"][chosen_ilvl] + "</td><td>" + items[i]["versatility"][chosen_ilvl] + "</td>";
             items_table += "<td>" + zones[items[i]["zone"]] + "</td>";
             items_table += "<td><button id=\"t_list_check" + i + "\" onclick=\"setInList(" + i + ")\" class=\"default-button\" style=\"width: 100%;" + (items[i]["inlist"] > -1 ? "background-color:green;\">Remove" : "\">Add") + "</button></td></tr>";
@@ -144,7 +159,7 @@ function sortByColumn(co) {
     var chosen_ilvl = $("#chosen_ilvl").val();
     if (orders[co])
     {
-        if (co > 1 && co < 6)
+        if (co > 2 && co < 7)
             items.sort(function(a, b) {
                 return a[columns[co]][chosen_ilvl] < b[columns[co]][chosen_ilvl];
             });
@@ -153,7 +168,7 @@ function sortByColumn(co) {
                 return a[columns[co]] < b[columns[co]];
             });
     } else {
-        if (co > 1 && co < 6)
+        if (co > 2 && co < 7)
             items.sort(function(a, b) {
                 return a[columns[co]][chosen_ilvl] > b[columns[co]][chosen_ilvl];
             });
@@ -182,6 +197,9 @@ function saveSettings() {
         for (var i = 0, length = slots.length; i < length; i++) {
             settings["slotsfilters"][i] = $("#slotsfilter" + i).prop("checked");
         }
+        for (var i = 0, length = types.length; i < length; i++) {
+            settings["typesfilters"][i] = $("#typesfilter" + i).prop("checked");
+        }
         settings["items_per_page"] = $("#items_per_page").val();
     }
 }
@@ -193,6 +211,9 @@ function loadSettings() {
     for (var i = 0, length = slots.length; i < length; i++) {
         $("#slotsfilter" + i).prop("checked", settings["slotsfilters"][i]);
     }
+    for (var i = 0, length = types.length; i < length; i++) {
+        $("#typesfilter" + i).prop("checked", settings["typesfilters"][i]);
+    }
     $("#items_per_page").val("" + settings["items_per_page"]).change();
 }
 
@@ -201,7 +222,7 @@ function loadItemPage() {
         $("#page-content").html(constructItemPage());
         loadSettings();
         currentpage = 0;
-        presentItemTable();     
+        presentItemTable();
     }
 }
 
@@ -220,21 +241,6 @@ function loadInExpPage() {
         currentpage = 2;
     }
 }
-
-//  ilvl-to-level
-/*  
-    0 - 865
-    2 - 870
-    4 - 875
-    6 - 880
-    8 - 885
-    10 - 890
-    12 - 895
-    13 - 900
-    14 - 905
-    15 - 910
-*/
-
 
 var levels = [0, 2, 4, 6, 8, 10, 12, 13, 14, 15];
 
@@ -308,7 +314,7 @@ function updateList(ow_opt) {
     var importstring = $("#impstrng").val();
     var itemids_str = importstring.split(";");
     var itemids = new Set(itemids_str);
-    var exportstrng = ""; 
+    var exportstrng = "";
     for (var i = 0, length = items.length; i < length; i++) {
         if (ow_opt) {
             items[i]["inlist"] = false;
@@ -368,6 +374,12 @@ function constructItemPage() {
         response_string += generateFilter(i, "slots", slots[i]);
     }
     response_string += generateFilter(-1, "slots", "All") + "</div>";
+
+    response_string += "<div class=\"fpanel\"><h1><span>Type</span></h1>";
+    for (var i = 0, length = types.length; i < length; i++) {
+        response_string += generateFilter(i, "types", types[i]);
+    }
+    response_string += generateFilter(-1, "types", "All") + "</div>";
 
     // zones in constuction
 

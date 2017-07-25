@@ -39,7 +39,7 @@
             0
         ],
         "slot": "trinket",
-        "type": "jewel",
+        "type": "misc",
         "versatility": [
             1036,
             1055,
@@ -94,7 +94,7 @@
             586
         ],
         "slot": "back",
-        "type": "jewel",
+        "type": "misc",
         "versatility": [
             0,
             0,
@@ -149,7 +149,7 @@
             0
         ],
         "slot": "back",
-        "type": "jewel",
+        "type": "misc",
         "versatility": [
             291,
             297,
@@ -809,7 +809,7 @@
             0
         ],
         "slot": "neck",
-        "type": "jewel",
+        "type": "misc",
         "versatility": [
             1016,
             1048,
@@ -1084,7 +1084,7 @@
             1336
         ],
         "slot": "finger",
-        "type": "jewel",
+        "type": "misc",
         "versatility": [
             0,
             0,
@@ -1139,7 +1139,7 @@
             0
         ],
         "slot": "finger",
-        "type": "jewel",
+        "type": "misc",
         "versatility": [
             948,
             978,
@@ -1194,7 +1194,7 @@
             1960
         ],
         "slot": "finger",
-        "type": "jewel",
+        "type": "misc",
         "versatility": [
             0,
             0,
@@ -1304,7 +1304,7 @@
             0
         ],
         "slot": "trinket",
-        "type": "jewel",
+        "type": "misc",
         "versatility": [
             0,
             0,
@@ -1414,7 +1414,7 @@
             1225
         ],
         "slot": "trinket",
-        "type": "jewel",
+        "type": "misc",
         "versatility": [
             0,
             0,
@@ -1689,7 +1689,7 @@
             1225
         ],
         "slot": "trinket",
-        "type": "jewel",
+        "type": "misc",
         "versatility": [
             0,
             0,
@@ -2294,7 +2294,7 @@
             1693
         ],
         "slot": "neck",
-        "type": "jewel",
+        "type": "misc",
         "versatility": [
             0,
             0,
@@ -2349,7 +2349,7 @@
             0
         ],
         "slot": "trinket",
-        "type": "jewel",
+        "type": "misc",
         "versatility": [
             0,
             0,

@@ -39,7 +39,7 @@
             344
         ],
         "slot": "back",
-        "type": "jewel",
+        "type": "misc",
         "versatility": [
             0,
             0,
@@ -644,7 +644,7 @@
             0
         ],
         "slot": "finger",
-        "type": "jewel",
+        "type": "misc",
         "versatility": [
             745,
             768,
@@ -699,7 +699,7 @@
             1158
         ],
         "slot": "neck",
-        "type": "jewel",
+        "type": "misc",
         "versatility": [
             1490,
             1537,
@@ -919,7 +919,7 @@
             0
         ],
         "slot": "finger",
-        "type": "jewel",
+        "type": "misc",
         "versatility": [
             0,
             0,
@@ -974,7 +974,7 @@
             0
         ],
         "slot": "trinket",
-        "type": "jewel",
+        "type": "misc",
         "versatility": [
             0,
             0,
@@ -1029,7 +1029,7 @@
             0
         ],
         "slot": "trinket",
-        "type": "jewel",
+        "type": "misc",
         "versatility": [
             0,
             0,
@@ -1084,7 +1084,7 @@
             1225
         ],
         "slot": "trinket",
-        "type": "jewel",
+        "type": "misc",
         "versatility": [
             0,
             0,
@@ -1524,7 +1524,7 @@
             620
         ],
         "slot": "back",
-        "type": "jewel",
+        "type": "misc",
         "versatility": [
             0,
             0,
@@ -1634,7 +1634,7 @@
             0
         ],
         "slot": "back",
-        "type": "jewel",
+        "type": "misc",
         "versatility": [
             244,
             249,
@@ -1689,7 +1689,7 @@
             0
         ],
         "slot": "trinket",
-        "type": "jewel",
+        "type": "misc",
         "versatility": [
             880,
             897,
