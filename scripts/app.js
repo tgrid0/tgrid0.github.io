@@ -26,6 +26,8 @@ var settings =
     "typesfilters": []
 }
 
+var stat_ratings = {"crit" : 400, "haste" : 375, "mastery" : 400, "versatility": 475};
+
 var columns = ["name", "slot", "type", "crit", "haste", "mastery", "versatility", "zone", "inlist"];
 var orders = [false, false, false, false, false, false, false, false, false];
 var locales = {"en": 0, "ru": 1, "de": 2, "fr": 3};
@@ -59,7 +61,7 @@ function handleRequest() {
             dataType: 'json',
             success: function(data) {
                 locdata = locdata.concat(data);
-                setLocale("en");
+                setLocale(currentlocale);
                 loadItemPage();
             }
         });
@@ -122,8 +124,15 @@ function passTypeFilters(item) {
     return $('#typesfilter' + i).prop("checked");
 }
 
+function getItemStat(item, statname, ilvl, showperc) {
+    if (item[statname][ilvl] > 0)
+        return item[statname][ilvl] + (showperc ? "<br>" + (item[statname][ilvl]/stat_ratings[statname]).toFixed(2) + "%" : "");
+    return "-";
+}
+
 function presentItemTable() {
     var items_to_show = $("#items_per_page").val();
+    var showperc = $("#showperc").prop("checked");
     var chosen_ilvl = $("#chosen_ilvl").val();
     var items_table = "<table class=\"default-table\">";
     items_table += "<tr>";
@@ -143,7 +152,11 @@ function presentItemTable() {
     for (var i = 0; i < total_items; i++) {
         if (passStatFilters(items[i]) && passSlotFilters(items[i]) && passTypeFilters(items[i])) {
             items_table += "<tr><td>" + items[i]["name"] + "</td><td>" + items[i]["slot"] + "</td><td>" + items[i]["type"] + "</td>";
-            items_table += "<td>" + items[i]["crit"][chosen_ilvl] + "</td><td>" + items[i]["haste"][chosen_ilvl] + "</td><td>" + items[i]["mastery"][chosen_ilvl] + "</td><td>" + items[i]["versatility"][chosen_ilvl] + "</td>";
+            items_table += "<td>" + getItemStat(items[i], "crit", chosen_ilvl, showperc) +
+                            "</td><td>" + getItemStat(items[i], "haste", chosen_ilvl, showperc) +
+                            "</td><td>" + getItemStat(items[i], "mastery", chosen_ilvl, showperc) +
+                            "</td><td>" + getItemStat(items[i], "versatility", chosen_ilvl, showperc) +
+                            "</td>";
             items_table += "<td>" + zones[items[i]["zone"]] + "</td>";
             items_table += "<td><button id=\"t_list_check" + i + "\" onclick=\"setInList(" + i + ")\" class=\"default-button\" style=\"width: 100%;" + (items[i]["inlist"] > -1 ? "background-color:green;\">Remove" : "\">Add") + "</button></td></tr>";
             shown_items++;
@@ -201,6 +214,7 @@ function saveSettings() {
             settings["typesfilters"][i] = $("#typesfilter" + i).prop("checked");
         }
         settings["items_per_page"] = $("#items_per_page").val();
+        settings["showperc"] = $("#showperc").prop("checked");
     }
 }
 
@@ -215,6 +229,7 @@ function loadSettings() {
         $("#typesfilter" + i).prop("checked", settings["typesfilters"][i]);
     }
     $("#items_per_page").val("" + settings["items_per_page"]).change();
+    $("#showperc").prop("checked", settings["showperc"]);
 }
 
 function loadItemPage() {
@@ -286,8 +301,8 @@ function constructWishList() {
 function generateExportString() {
     var export_string = "";
     for (var i = 0, length = items.length; i < length; i++) {
-        if (items[i]["inlist"])
-            export_string += items[i]["localid"] + ";";
+        if (items[i]["inlist"] > -1)
+            export_string += items[i]["localid"] + ":" + items[i]["inlist"] + ";";
     }
     return export_string;
 }
@@ -313,15 +328,18 @@ function concstructInExpPage() {
 function updateList(ow_opt) {
     var importstring = $("#impstrng").val();
     var itemids_str = importstring.split(";");
-    var itemids = new Set(itemids_str);
+    var impItems = {}
+    for (var i = 0, length = itemids_str.length; i < length; i++) {
+        impItems[itemids_str[i].split(":")[0]] = itemids_str[i].split(":")[1];
+    }
     var exportstrng = "";
     for (var i = 0, length = items.length; i < length; i++) {
         if (ow_opt) {
-            items[i]["inlist"] = false;
+            items[i]["inlist"] = -1;
         }
-        if (itemids.has(items[i]["localid"].toString())) {
-            items[i]["inlist"] = true;
-            exportstrng += items[i]["localid"] + ";";
+        if (items[i]["inlist"] > -1 && items[i]["localid"].toString() in impItems) {
+            items[i]["inlist"] = parseInt(impItems[items[i]["localid"].toString()]);
+            exportstrng += items[i]["localid"] + ":" + items[i]["inlist"] + ";";
         }
     }
     // also update export string
@@ -362,7 +380,7 @@ function constructItemPage() {
     var response_string = "";
     response_string += "<div class=\"fpanel\"><h1><span>Filters</span></h1>";
     response_string += "<div class=\"fpanel\"><h1><span>Search</span></h1><input type=\"text\" value=\"Name or id:<itemid>\"></div>";
-    
+
     response_string += "<div class=\"fpanel\"><h1><span>Stats</span></h1>";
     for (var i = 0, length = stats.length; i < length; i++) {
         response_string += generateFilter(i, "stats", stats[i]);
@@ -392,6 +410,9 @@ function constructItemPage() {
     response_string += "<div class=\"fpanel\"><h1><span>Show first</span></h1><select id=\"items_per_page\">";
     response_string += "<option value=\"10\" selected>10</option><option value=\"25\">25</option>";
     response_string += "<option value=\"50\">50</option><option value=\"100\">100</option></select></div>";
+
+    response_string += "<div class=\"fpanel\"><h1><span>Show raw stat percents</span></h1><input type=\"checkbox\" id=\"showperc\" >Note: percents show without any bonuses, taken from <a href=\"http://www.wowhead.com/secondary-stat-changes-in-patch-7-1-5\">article</a>.</div>";
+
     response_string += "<button class=\"default-button\" onclick=\"presentItemTable()\">Refresh List</button></div>";
 
     response_string += "</div>";
