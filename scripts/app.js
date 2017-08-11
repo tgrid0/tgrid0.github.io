@@ -17,6 +17,9 @@ var zones =
 var stats = ["Crit", "Haste", "Mastery", "Versatility"];
 var slots = ["Head", "Neck", "Shoulder", "Back", "Chest", "Wrist", "Hands", "Waist", "Legs", "Feet", "Finger", "Trinket"];
 var types = ["Cloth", "Leather", "Mail", "Plate", "Misc"];
+var titles = ["Filters", "Search", "Stats", "Slot", "Type", "Item level", "Show first", "Show raw stat percents", "Item", "Instance", "In list"];
+var strictTypes = ["cloth", "leather", "mail", "plate", "misc"];
+var strictSlots = ["Head", "Neck", "Shoulder", "Back", "Chest", "Wrist", "Hands", "Waist", "Legs", "Feet", "Finger", "Trinket"];
 
 var settings =
 {
@@ -28,9 +31,37 @@ var settings =
 
 var stat_ratings = {"crit" : 400, "haste" : 375, "mastery" : 400, "versatility": 475};
 
-var columns = ["name", "slot", "type", "crit", "haste", "mastery", "versatility", "zone", "inlist"];
+var strictColumns = ["name", "slot", "type", "crit", "haste", "mastery", "versatility", "zone", "inlist"];
 var orders = [false, false, false, false, false, false, false, false, false];
 var locales = {"en": 0, "ru": 1, "de": 2, "fr": 3};
+var localizedTitles =
+{
+    "en": ["Filters", "Search", "Stats", "Slot", "Type", "Item level", "Show first", "Show raw stat percents", "Refresh Table", "Item", "Instance", "In list", "Add", "Remove", "Total stats"],
+    "ru": ["Фильтры", "Поиск", "Характеристики", "Слот", "Тип", "Уровень предметов", "Показывать первые", "Показывать проценты", "Обновить таблицу", "Предмет", "Зона", "В листе", "Добавить", "Убрать", "Итого характеристик"],
+    "de": ["Filters", "Search", "Stats", "Slot", "Type", "Item level", "Show first", "Show raw stat percents", "Refresh Table", "Item", "Instance", "In list", "Add", "Remove", "Total stats"],
+    "fr": ["Filters", "Search", "Stats", "Slot", "Type", "Item level", "Show first", "Show raw stat percents", "Refresh Table", "Item", "Instance", "In list", "Add", "Remove", "Total stats"]
+}
+var localizedStats =
+{
+    "en": ["Crit", "Haste", "Mastery", "Versatility"],
+    "ru": ["Крит", "Скорость", "Искусность", "Универсальность"],
+    "de": ["Crit", "Haste", "Mastery", "Versatility"],
+    "fr": ["Crit", "Haste", "Mastery", "Versatility"]
+}
+var localizedSlots =
+{
+    "en": ["Head", "Neck", "Shoulder", "Back", "Chest", "Wrist", "Hands", "Waist", "Legs", "Feet", "Finger", "Trinket"],
+    "ru": ["Голова", "Шея", "Плечо", "Спина", "Грудь", "Запястья", "Руки", "Пояс", "Ноги", "Ступни", "Палец", "Аксессуар"],
+    "de": ["Head", "Neck", "Shoulder", "Back", "Chest", "Wrist", "Hands", "Waist", "Legs", "Feet", "Finger", "Trinket"],
+    "fr": ["Head", "Neck", "Shoulder", "Back", "Chest", "Wrist", "Hands", "Waist", "Legs", "Feet", "Finger", "Trinket"]
+}
+var localizedTypes =
+{
+    "en": ["Cloth", "Leather", "Mail", "Plate", "Misc"],
+    "ru": ["Ткань", "Кожа", "Кольчуга", "Латы", "Прочее"],
+    "de": ["Cloth", "Leather", "Mail", "Plate", "Misc"],
+    "fr": ["Cloth", "Leather", "Mail", "Plate", "Misc"]
+}
 var locdata = [];
 
 var currentlocale = "en";
@@ -39,18 +70,24 @@ var currentpage = -1; // 0 - items, 1 - instances
 var items = [];
 var processedRequests = zoneids.length;
 
+function changeLocale(loc) {
+    setLocale(loc);
+    refreshPage();
+}
+
 function setLocale(loc) {
     currentlocale = loc;
     items.forEach(function(item, i, items) {
         item["name"] = locdata[locales[currentlocale]][item["id"]];
     });
+    stats = localizedStats[currentlocale];
+    slots = localizedSlots[currentlocale];
+    types = localizedTypes[currentlocale];
+    titles = localizedTitles[currentlocale];
     Object.keys(locales).forEach(function(key) {
         $("#loc" + key).removeClass("default-button-active");
     });
     $("#loc" + currentlocale).addClass("default-button-active");
-    if (currentpage == 0) {
-        presentItemTable();
-    }
 }
 
 function handleRequest() {
@@ -104,9 +141,9 @@ function passStatFilters(item) {
 
 function passSlotFilters(item) {
     var i = 0;
-    var length = slots.length;
+    var length = strictSlots.length;
     while (i < length) {
-        if (slots[i].toLowerCase() == item["slot"])
+        if (strictSlots[i].toLowerCase() == item["slot"])
             break;
         i++;
     }
@@ -115,9 +152,9 @@ function passSlotFilters(item) {
 
 function passTypeFilters(item) {
     var i = 0;
-    var length = types.length;
+    var length = strictTypes.length;
     while (i < length) {
-        if (types[i].toLowerCase() == item["type"])
+        if (strictTypes[i].toLowerCase() == item["type"])
             break;
         i++;
     }
@@ -136,15 +173,15 @@ function presentItemTable() {
     var chosen_ilvl = $("#chosen_ilvl").val();
     var items_table = "<table class=\"default-table\">";
     items_table += "<tr>";
-    items_table += generateTableButton(0, "Item");
-    items_table += generateTableButton(1, "Slot");
-    items_table += generateTableButton(2, "Type");
-    items_table += generateTableButton(3, "Crit");
-    items_table += generateTableButton(4, "Haste");
-    items_table += generateTableButton(5, "Mastery");
-    items_table += generateTableButton(6, "Versatility");
-    items_table += generateTableButton(7, "Instance");
-    items_table += generateTableButton(8, "In list");
+    items_table += generateTableButton(0, titles[9]);
+    items_table += generateTableButton(1, titles[3]);
+    items_table += generateTableButton(2, titles[4]);
+    items_table += generateTableButton(3, stats[0]);
+    items_table += generateTableButton(4, stats[1]);
+    items_table += generateTableButton(5, stats[2]);
+    items_table += generateTableButton(6, stats[3]);
+    items_table += generateTableButton(7, titles[10]);
+    items_table += generateTableButton(8, titles[11]);
     items_table += "</tr>";
 
     var shown_items = 0;
@@ -158,7 +195,7 @@ function presentItemTable() {
                             "</td><td>" + getItemStat(items[i], "versatility", chosen_ilvl, showperc) +
                             "</td>";
             items_table += "<td>" + zones[items[i]["zone"]] + "</td>";
-            items_table += "<td><button id=\"t_list_check" + i + "\" onclick=\"setInList(" + i + ")\" class=\"default-button\" style=\"width: 100%;" + (items[i]["inlist"] > -1 ? "background-color:green;\">Remove" : "\">Add") + "</button></td></tr>";
+            items_table += "<td><button id=\"t_list_check" + i + "\" onclick=\"setInList(" + i + ")\" class=\"default-button\" style=\"width: 100%;" + (items[i]["inlist"] > -1 ? "background-color:green;\">" + titles[13] : "\">" + titles[12]) + "</button></td></tr>";
             shown_items++;
         }
         if (shown_items >= items_to_show)
@@ -174,20 +211,20 @@ function sortByColumn(co) {
     {
         if (co > 2 && co < 7)
             items.sort(function(a, b) {
-                return a[columns[co]][chosen_ilvl] < b[columns[co]][chosen_ilvl];
+                return a[strictColumns[co]][chosen_ilvl] < b[strictColumns[co]][chosen_ilvl];
             });
         else
             items.sort(function(a, b) {
-                return a[columns[co]] < b[columns[co]];
+                return a[strictColumns[co]] < b[strictColumns[co]];
             });
     } else {
         if (co > 2 && co < 7)
             items.sort(function(a, b) {
-                return a[columns[co]][chosen_ilvl] > b[columns[co]][chosen_ilvl];
+                return a[strictColumns[co]][chosen_ilvl] > b[strictColumns[co]][chosen_ilvl];
             });
         else
             items.sort(function(a, b) {
-                return a[columns[co]] > b[columns[co]];
+                return a[strictColumns[co]] > b[strictColumns[co]];
             });
     }
     orders[co] = !orders[co];
@@ -199,7 +236,7 @@ function setInList(index) {
     items[index]["inlist"] = items[index]["inlist"] > -1 ? -1 : chosen_ilvl;
     var b = items[index]["inlist"] > -1;
     $("#t_list_check" + index).css("background-color", b ? "green" : "#154aa5");
-    $("#t_list_check" + index).html(b ? "Remove" : "Add");
+    $("#t_list_check" + index).html(b ? titles[13] : titles[12]);
 }
 
 function saveSettings() {
@@ -230,6 +267,21 @@ function loadSettings() {
     }
     $("#items_per_page").val("" + settings["items_per_page"]).change();
     $("#showperc").prop("checked", settings["showperc"]);
+}
+
+function refreshPage() {
+    switch(currentpage) {
+        case 0:
+        $("#page-content").html(constructItemPage());
+        presentItemTable();
+        break;
+        case 1:
+        $("#page-content").html(constructWishList());
+        break;
+        case 2:
+        $("#page-content").html(concstructInExpPage());
+        break;
+    }
 }
 
 function loadItemPage() {
@@ -267,6 +319,10 @@ function constructWishList() {
     var response_string = "";
     var item_strings = [];
     var zoneshow = [];
+    var total_crit = 0;
+    var total_haste = 0;
+    var total_mastery = 0;
+    var total_versatility = 0;
     for (var i = 0, length = zoneids.length; i < length; i++) {
         item_strings[i] = [];
         for (var j = 0; j < 10; j++)
@@ -280,14 +336,23 @@ function constructWishList() {
             item_strings[items[i]["zone"]][items[i]["inlist"]] += "<div class=\"wlist-item\"><a href=\"http://www.wowhead.com/item=" + items[i]["id"] +
                                                                   "&bonus=1727:" + ilvlBonusId(items[i]["inlist"]) + "\">" + items[i]["slot"] + "</a></div>";
             zoneshow[items[i]["zone"]] = true;
+            total_versatility += items[i]["versatility"][items[i]["inlist"]];
+            total_crit += items[i]["crit"][items[i]["inlist"]];
+            total_mastery += items[i]["mastery"][items[i]["inlist"]];
+            total_haste += items[i]["haste"][items[i]["inlist"]];
         }
     }
+    response_string += "<div class=\"fpanel\"> <h1><span>" + titles[14] + "</span></h1>";
+    response_string += stats[0] + " " + total_crit + " (" + (total_crit/stat_ratings["crit"]).toFixed(2) + "%) &nbsp &nbsp";
+    response_string += stats[1] + " " + total_haste + " (" + (total_haste/stat_ratings["haste"]).toFixed(2) + "%) &nbsp &nbsp";
+    response_string += stats[2] + " " + total_mastery + " (" + (total_mastery/stat_ratings["mastery"]).toFixed(2) + "%) &nbsp &nbsp";
+    response_string += stats[3] + " " + total_versatility + " (" + (total_versatility/stat_ratings["versatility"]).toFixed(2) + "%) </div>";
     for (var i = 0, length = zoneids.length; i < length; i++) {
         if (zoneshow[i]) {
             response_string += "<div class=\"fpanel\"> <h1><span>" + zones[i] +  "</span></h1>";
             for (var j = 0; j < 10; j++) {
                 if (item_strings[i][j] != "" && item_strings[i][j] != undefined)
-                    response_string += "<div class=\"fpanel\"> <h1><span>" + levels[j] +  "+</span></h1>" + item_strings[i][j] + "</div>";
+                    response_string += "<div>" + levels[j] +  "+ &nbsp &nbsp" + item_strings[i][j] + "</div>";
             }
             response_string += "</div>";
         }
@@ -378,22 +443,22 @@ function filterCheckAll(name, check) {
 
 function constructItemPage() {
     var response_string = "";
-    response_string += "<div class=\"fpanel\"><h1><span>Filters</span></h1>";
-    response_string += "<div class=\"fpanel\"><h1><span>Search</span></h1><input type=\"text\" value=\"Name or id:<itemid>\"></div>";
+    response_string += "<div class=\"fpanel\"><h1><span>" + titles[0] + "</span></h1>";
+    response_string += "<div class=\"fpanel\"><h1><span>" + titles[1] + "</span></h1><input type=\"text\" value=\"Name or id:<itemid>\"></div>";
 
-    response_string += "<div class=\"fpanel\"><h1><span>Stats</span></h1>";
+    response_string += "<div class=\"fpanel\"><h1><span>" + titles[2] + "</span></h1>";
     for (var i = 0, length = stats.length; i < length; i++) {
         response_string += generateFilter(i, "stats", stats[i]);
     }
     response_string += generateFilter(-1, "stats", "All") + "</div>";
 
-    response_string += "<div class=\"fpanel\"><h1><span>Slot</span></h1>";
+    response_string += "<div class=\"fpanel\"><h1><span>" + titles[3] + "</span></h1>";
     for (var i = 0, length = slots.length; i < length; i++) {
         response_string += generateFilter(i, "slots", slots[i]);
     }
     response_string += generateFilter(-1, "slots", "All") + "</div>";
 
-    response_string += "<div class=\"fpanel\"><h1><span>Type</span></h1>";
+    response_string += "<div class=\"fpanel\"><h1><span>" + titles[4] + "</span></h1>";
     for (var i = 0, length = types.length; i < length; i++) {
         response_string += generateFilter(i, "types", types[i]);
     }
@@ -401,19 +466,19 @@ function constructItemPage() {
 
     // zones in constuction
 
-    response_string += "<div class=\"fpanel\"><h1><span>Item level</span></h1><select id=\"chosen_ilvl\">";
+    response_string += "<div class=\"fpanel\"><h1><span>" + titles[5] + "</span></h1><select id=\"chosen_ilvl\">";
     for (var i = 0; i < 10; i++) {
         response_string += "<option value=\"" + i +"\" selected>" + (865 + i * 5) +"</option>";
     }
     response_string += "</select></div>";
 
-    response_string += "<div class=\"fpanel\"><h1><span>Show first</span></h1><select id=\"items_per_page\">";
+    response_string += "<div class=\"fpanel\"><h1><span>" + titles[6] + "</span></h1><select id=\"items_per_page\">";
     response_string += "<option value=\"10\" selected>10</option><option value=\"25\">25</option>";
     response_string += "<option value=\"50\">50</option><option value=\"100\">100</option></select></div>";
 
-    response_string += "<div class=\"fpanel\"><h1><span>Show raw stat percents</span></h1><input type=\"checkbox\" id=\"showperc\" >Note: percents show without any bonuses, taken from <a href=\"http://www.wowhead.com/secondary-stat-changes-in-patch-7-1-5\">article</a>.</div>";
+    response_string += "<div class=\"fpanel\"><h1><span>" + titles[7] + "</span></h1><input type=\"checkbox\" id=\"showperc\" >Note: percents show without any bonuses, taken from <a href=\"http://www.wowhead.com/secondary-stat-changes-in-patch-7-1-5\">article</a>.</div>";
 
-    response_string += "<button class=\"default-button\" onclick=\"presentItemTable()\">Refresh List</button></div>";
+    response_string += "<button class=\"default-button\" onclick=\"presentItemTable()\">" + titles[8] + "</button></div>";
 
     response_string += "</div>";
 
